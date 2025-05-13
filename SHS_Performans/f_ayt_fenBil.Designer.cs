@@ -126,6 +126,7 @@
             button1.TabIndex = 29;
             button1.Text = "Sonraki Soru";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // lblSoru
             // 
@@ -148,6 +149,10 @@
             pictureBox1.TabIndex = 27;
             pictureBox1.TabStop = false;
             // 
+            // timer1
+            // 
+            timer1.Tick += timer1_Tick;
+            // 
             // f_ayt_fenBil
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -164,6 +169,7 @@
             Controls.Add(pictureBox1);
             Name = "f_ayt_fenBil";
             Text = "Alan Yeterlilik Testi Fen Bilimleri Sınavı";
+            Load += f_ayt_fenBil_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

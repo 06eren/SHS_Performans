@@ -44,7 +44,15 @@ namespace SHS_Performans
             olus_4.Visible = false;
             olus_5.Visible = false;
             olus_cikis.Visible = false;
-            olus_label.Visible=false;
+            olus_label.Visible = false;
+            //SHS
+            olus_1.Click += btnSinav_Click;
+            olus_2.Click += btnSinav_Click;
+            olus_3.Click += btnSinav_Click;
+            olus_4.Click += btnSinav_Click;
+            olus_5.Click += btnSinav_Click;
+
+
 
             label1_tyt_baslik.BackColor = Color.Transparent;
             ayt_label.BackColor = Color.Transparent;
@@ -57,6 +65,19 @@ namespace SHS_Performans
             LinkLabekBattalgazi.LinkColor = Color.Black; LinkLabekBattalgazi.Links.Add(0, LinkLabekBattalgazi.Text.Length, "https://battalgazieml.meb.k12.tr/");
             LinkLabelGit.LinkColor = Color.Black; LinkLabelGit.Links.Add(0, LinkLabelGit.Text.Length, "https://github.com/06eren");
             LinkLabelInsta.LinkColor = Color.Black; LinkLabelInsta.Links.Add(0, LinkLabelInsta.Text.Length, "https://www.instagram.com/0adwen?igsh=MTh5bmVkbzBnNmltYg%3D%3D");
+        }
+
+        private void btnSinav_Click(object sender, EventArgs e)
+        {
+            Button tiklananButon = sender as Button;
+
+            if (tiklananButon != null && tiklananButon.Visible)
+            {
+                string sinavAdi = tiklananButon.Text;
+
+                SinavOlusturma cozForm = new SinavOlusturma(sinavAdi);
+                cozForm.ShowDialog();
+            }
         }
 
         private void LinkLabelGit_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -217,12 +238,11 @@ namespace SHS_Performans
             {
                 SinavOlusturma sinav = new SinavOlusturma();
                 sinav.Owner = this;
-                sinav.Show();
-                this.Hide();
+                sinav.ShowDialog();
             }
             else
             {
-                MessageBox.Show("İşlem İptal Edildi","SHS System",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                MessageBox.Show("İşlem İptal Edildi", "SHS System", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
 
@@ -250,6 +270,43 @@ namespace SHS_Performans
             olus_5.Visible = false;
             olus_cikis.Visible = false;
             olus_label.Visible = false;
+        }
+
+        public void AktifButonEkle(string sinavAdi)
+        {
+            Button[] butonlar = { olus_1, olus_2, olus_3, olus_4, olus_5 };
+
+            foreach (var btn in butonlar)
+            {
+                if (!btn.Visible)
+                {
+                    btn.Text = sinavAdi; // Butonun adını sınav adı yap
+                    btn.Visible = true;  // Butonu görünür yap
+                    break;
+                }
+            }
+        }
+
+        private void ayt_sosyal_button_Click(object sender, EventArgs e)
+        {
+            f_ayt_sosyalbil sosyalbil = new f_ayt_sosyalbil();
+            sosyalbil.Show();
+            this.Hide();
+        }
+
+        private void ayt_mat_button_Click(object sender, EventArgs e)
+        {
+            f_ayt_matematik mat = new f_ayt_matematik();
+            mat.Show();
+            this.Hide();
+        }
+
+        private void ayt_fen_button_Click(object sender, EventArgs e)
+        {
+            f_ayt_fenBil fen = new f_ayt_fenBil();
+            fen.Show();
+            this.Hide();
+
         }
     }
 }

@@ -3,529 +3,540 @@
 <Questions>
 	<Question>
 		<Text>
-			Bozuk bir bilgisayar klavyesinde bulunan T ve Y
-			tuşlarına basıldığında bu harflerin ekranda görünme
-			olasılığı ile ilgili aşağıdakiler bilinmektedir.
-
-			 Klavyede T tuşuna basıldığında ekranda T harfinin
-			görünme olasılığı 3/4, Y harfinin görünme
-			olasılığı 1/4’tür.
-
-			 Klavyede Y tuşuna basıldığında ekranda Y harfinin
-			görünme olasılığı 2/3, T harfinin görünme
-			olasılığı 1/3’tür.
-
-			Buna göre, klavyede sırasıyla T, T ve Y tuşlarına
-			basıldığında ekranda TYT görünme olasılığı kaçtır?
+			Sürtünmesiz yatay bir düzlemde düzgün çembersel
+			hareket yapan noktasal bir cisim ile ilgili;
+			
+			I. cisme çember merkezine göre etki eden net tork,
+			II. cisme etki eden net kuvvet,
+			III. cismin merkezcil ivmesi
+			 
+			niceliklerinden hangileri sıfırdır?
 		</Text>
 		<Option>
-			A-) 1/12
+			A-) Yalnız I
 		</Option>
 		<Option>
-			B-) 1/16
+			B-) Yalnız III
 		</Option>
 		<Option>
-			C-) 1/24
-		</Option>
-		<Option>
-			D-) 1/32
-		</Option>
-		<Option>
-			E-) 1/48
-		</Option>
-		<CorrectIndex>1</CorrectIndex>
-	</Question>
-	<Question>
-		<Text>
-			Bisiklet almayı çok isteyen Bilge’ye babası;
+			C-) I ve II
 
-			“Sana söz veriyorum, kumbaranda en az 500 TL
-			olduğu ilk gün o bisikleti almaya gideceğiz.”
-			demiştir.
+		</Option>
+		<Option>
+			D-) II ve III
+		</Option>
+		<Option>
+			E-) I, II ve III
 
-			Bunun üzerine Bilge, o günden başlayarak hiç
-			aksatmadan başlangıçta boş olan kumbarasına hafta içi
-			her gün 20 TL, hafta sonu her gün ise 25 TL atmaya
-			başlamıştır. Babası sözünü tutmuş ve bir cumartesi
-			günü Bilge’yi o bisikleti almaya götürmüştür.
-
-			Buna göre, babası Bilge’ye bu sözü hangi gün
-			söylemiştir?
-		</Text>
-		<Option>A-) Pazartesi</Option>
-		<Option>B-) Salı</Option>
-		<Option>C-) Çarşamba</Option>
-		<Option>D-) Perşembe</Option>
-		<Option>E-) Cuma</Option>
-		<CorrectIndex>3</CorrectIndex>
-	</Question>
-	<Question>
-		<Text>
-			Tarık bir bölgede bulunan tüm müzeleri listelemiştir. Bu
-			listedeki müzelerden gittiklerinin gitmediklerine oranı
-			1/2 iken daha önce gitmediği 12 müzeyi tatilde ziyaret
-			etmiş ve sonrasında bu oran 2/3 olmuştur.
-
-			Buna göre, Tarık'ın listesinde bulunan müze sayısı
-			kaçtır?
-		</Text>
-		<Option>
-			A-) 90
-		</Option>
-		<Option>
-			B-) 120
-		</Option>
-		<Option>
-			C-) 150
-		</Option>
-		<Option>
-			D-) 180
-		</Option>
-		<Option>
-			E-) 210
-		</Option>
-		<CorrectIndex>3</CorrectIndex>
-	</Question>
-	<Question>
-		<Text>
-			Yalnızca fındık ve şekerden oluşan bir fındık ezmesi
-			tarifinde fındık ve şeker belirli bir oranda
-			karıştırılmaktadır.
-
-			Bu tarife göre; 21 kilogram şeker ve 42 kilogram
-			fındığın bulunduğu birinci imalathanede fındık ezmesi
-			üretildiğinde yalnızca 9 kilogram şekerin arttığı,
-			16 kilogram şeker ve 64 kilogram fındığın bulunduğu
-			ikinci imalathanede fındık ezmesi üretildiğinde yalnızca
-			belirli miktarda fındığın arttığı görülmüştür.
-
-			Buna göre, ikinci imalathanede artan fındık miktarı
-			kaç kilogramdır?
-		</Text>
-		<Option>
-			A-) 6
-		</Option>
-		<Option>
-			B-) 8
-		</Option>
-		<Option>
-			C-) 9
-		</Option>
-		<Option>
-			D-) 10
-		</Option>
-		<Option>
-			E-) 12
-		</Option>
-		<CorrectIndex>1</CorrectIndex>
-	</Question>
-	<Question>
-		<Text>
-			Bir dijital saatin ilk iki hanesi saat kısmını, diğer iki
-			hanesi dakika kısmını göstermektedir. Örneğin, saat
-			11.05 iken dijital saatin saat hanesinde 11, dakika
-			hanesinde 05 görünmektedir.
-
-			Melis, katıldığı bir toplantı bittiğinde duvardaki
-			dijital saate bakmış ve bu saatin saat hanesinde
-			15 sayısını görmüştür. Arkadaşı Melis’e, toplantı
-			boyunca saat hanesinde 15 sayısının görüldüğü
-			sürenin, toplantı süresinin % 25’i olduğunu söylemiştir.
-
-			Toplantı 108 dakika sürdüğüne göre, toplantının
-			başlangıç saati kaçtır?
-
-		</Text>
-		<Option>
-			A-) 13.39
-		</Option>
-		<Option>
-			B-) 13.42
-		</Option>
-		<Option>
-			C-) 13.45
-		</Option>
-		<Option>
-			D-) 13.48
-		</Option>
-		<Option>
-			E-) 13.51
 		</Option>
 		<CorrectIndex>0</CorrectIndex>
 	</Question>
 	<Question>
 		<Text>
-			Emre her sayfasında eşit sayıda soru bulunan 6 sayfalık
-			bir anketteki tüm soruları, anketin 1. sayfasından
-			başlayarak sırasıyla cevaplamıştır. Emre, 2. sayfada
-			3 soru cevapladığında anketin % 20’sini tamamlamıştır.
-
-			Buna göre, Emre 5. sayfada 3 soru cevapladığında
-			anketin yüzde kaçını tamamlamış olur?
+			Ekvator düzlemindeki bir çembersel yörüngede
+			Yerküre’nin dönme hareketi ile aynı yönde dolanan bir televizyon uydusu, Türkiye’de herhangi bir yerde sabit
+			bulunan birine göre doğuya doğru hareket etmektedir. Yeryüzündeki televizyon antenlerinin bu uydudan
+			kesintisiz olarak sinyal almaları için uydunun, Türkiye’de herhangi bir yerde sabit bulunan birine göre
+			gökyüzündeki konumunun hep aynı kalması gerekmektedir.
+			
+			Uydu ile ilgili bu sorunun düzeltilmesi için
+			aşağıdakilerden hangisi yapılmalıdır?
 		</Text>
-		<Option>A-) 81</Option>
-		<Option>B-) 80</Option>
-		<Option>C-) 75 </Option>
-		<Option>D-) 72</Option>
-		<Option>E-) 70</Option>
+		<Option>
+			A-) Uydunun kütlesi azaltılarak tekrar aynı yarıçaplı
+			çembersel yörüngede dolanması sağlanmalıdır.
+		</Option>
+		<Option>
+			B-) Uydunun kütlesi artırılarak tekrar aynı yarıçaplı
+			çembersel yörüngede dolanması sağlanmalıdır.
+		</Option>
+		<Option>
+			C-) Uydunun daha büyük yarıçaplı bir çembersel
+			yörüngede dolanması sağlanmalıdır.
+		</Option>
+		<Option>
+			D-) Uydunun daha küçük yarıçaplı bir çembersel
+			yörüngede dolanması sağlanmalıdır.
+		</Option>
+		<Option>
+			E-) Uydunun aynı yarıçaplı yörüngede fakat Yerküre’nin
+			kendi ekseni etrafındaki dönme yönüne ters yönde
+			dolanması sağlanmalıdır
+		</Option>
+		<CorrectIndex>2</CorrectIndex>
+	</Question>
+	<Question>
+		<Text>
+			Radyoaktif çekirdekler ile kararlı (radyoaktif olmayan)
+			çekirdekler arasında belirgin bazı farklar olmasına rağmen ortak özellikler de bulunmaktadır.
+			Buna göre rastgele seçilen bir radyoaktif ve bir kararlı çekirdek için;
+			
+			I. dış etki olmaksızın kendiliğinden ışıma yapma,
+			II. çekirdeklerindeki nötron sayısı, proton sayısından fazla olma,
+			III. bozunmaya uğrayarak atom veya kütle numarası
+			farklı olan başka çekirdeklere dönüşme
+			
+			özelliklerinden hangileri ortak olabilir?
+		</Text>
+		<Option>
+			A-) Yalnız I
+		</Option>
+		<Option>
+			B-) Yalnız II
+		</Option>
+		<Option>
+			C-) Yalnız III
+
+		</Option>
+		<Option>
+			D-) I ve II
+		</Option>
+		<Option>
+			E-) II ve III
+
+		</Option>
+		<CorrectIndex>1</CorrectIndex>
+	</Question>
+	<Question>
+		<Text>
+			Kütlesi ihmal edilen sürtünmesiz hareketli bir pistonla
+			kapatılmış kap içerisinde 400 K sıcaklıkta belirli bir
+			basınçta 2,0 L azot gazı bulunmaktadır.
+			
+			Aynı basınçta azot gazının mol sayısı iki katına
+			çıkarılıp sıcaklığı 300 K’ye düşürülürse gazın hacmi
+			kaç litre olur?
+			(Gazın ideal gaz olarak davrandığı varsayılacaktır.)
+		</Text>
+		<Option>
+			A-) 1,0
+		</Option>
+		<Option>
+			B-) 1,5
+		</Option>
+		<Option>
+			C-) 2,5
+		</Option>
+		<Option>
+			D-) 3,0
+		</Option>
+		<Option>
+			E-) 3,5
+
+		</Option>
+		<CorrectIndex>3</CorrectIndex>
+	</Question>
+	<Question>
+		<Text>
+			Tentürdiyot elde etmek üzere 25,4 g iyot (I2) katısı belirli
+			bir sıcaklıkta 2500 mL etil alkol içinde tamamen
+			çözülüyor.
+			
+			Buna göre tentürdiyot çözeltisinde I2 derişimi kaç
+			molaldır?
+			(= 127 g/mol ve (d)etil alkol = 0,8 g/mL)
+
+		</Text>
+		<Option>
+			A-) 0,03
+		</Option>
+		<Option>
+			B-) 0,05
+		</Option>
+		<Option>
+			C-) 0,06
+		</Option>
+		<Option>
+			D-) 0,08
+		</Option>
+		<Option>
+			E-) 0,10
+
+		</Option>
+		<CorrectIndex>1</CorrectIndex>
+	</Question>
+	<Question>
+		<Text>
+			Gerekli şartlar sağlanarak sıvı hâldeki iridyumun klorür
+			bileşiği elektroliz edilmektedir. Bu bileşiğin 1 A akımla
+			965 dakika süre ile elektrolizi sonucunda katotta
+			38,4 g iridyum (Ir) toplanmaktadır.
+
+			Buna göre iridyumun klorür bileşiğindeki iridyumun
+			yükseltgenme basamağı aşağıdakilerden hangisidir?
+			(1 mol elektronun yükü = 96500 C, r =192 g/mol)
+
+		</Text>
+		<Option>A-) 2</Option>
+		<Option>B-) 3</Option>
+		<Option>C-) 4 </Option>
+		<Option>D-) 5</Option>
+		<Option>E-) 6</Option>
+		<CorrectIndex>1</CorrectIndex>
+	</Question>
+	<Question>
+		<Text>
+			Aşağıdaki durumların hangisinde insan kalbinin atış
+			hızında düşüş olması beklenir?
+
+		</Text>
+		<Option>
+			A-) Kandaki adrenalin hormonu seviyesi arttığında
+		</Option>
+		<Option>
+			B-) Kandaki karbon dioksit miktarı arttığında
+		</Option>
+		<Option>
+			C-) Kandaki tiroksin hormonu seviyesi arttığında
+		</Option>
+		<Option>
+			D-) Vücut sıcaklığı arttığında
+		</Option>
+		<Option>
+			E-) Kalbe etki eden asetilkolin miktarı arttığında
+
+		</Option>
 		<CorrectIndex>4</CorrectIndex>
 	</Question>
 	<Question>
 		<Text>
-			Bir arkadaşı Ayşe'ye oturdukları evin ne zaman
-			yapıldığını sormuştur. Ayşe de
-
-			 evin 1990 yılındaki yaşının kendisinin bugünkü
-			yaşına,
-
-			 evin 2000 yılındaki yaşının eşinin bugünkü yaşına,
-
-			 evin 2020 yılındaki yaşının kendisi ile eşinin
-			bugünkü yaşları toplamına eşit olduğunu soylemiştir.
-
-			Buna göre, Ayşe’nin oturduğu ev hangi yılda yapılmıştır?
+			İnsan solunum sisteminin yapısını ve işleyişini
+			inceleyen bir öğrencinin yapmış olduğu aşağıdaki
+			yorumlardan hangisi yanlıştır?
 		</Text>
 		<Option>
-			A-) 1960
+			A-) Ergin bir bireyin akciğerlerindeki toplam gaz değişim
+			alanı, derisinin yüzey alanından daha büyüktür.
 		</Option>
 		<Option>
-			B-) 1965
+			B-) Solunum gazlarının solunum yüzeyinden alışverişi
+			difüzyon kurallarına göre gerçekleşir.
 		</Option>
 		<Option>
-			C-) 1970
+			C-) Egzersiz sırasında soluk verilirken dışarıya atılan
+			havada sadece karbon dioksit bulunur.
 		</Option>
 		<Option>
-			D-) 1975.
+			D-) Kana geçen oksijenin çoğu oksihemoglobin şeklinde
+			taşınmaktadır.
 		</Option>
 		<Option>
-			E-) 1980
+			E-) Kan dolaşımındaki karbon dioksitin kısmi basıncının
+			artması solunum merkezini uyarır.
 		</Option>
-		<CorrectIndex>2</CorrectIndex>
-	</Question>
-	<Question>
-		<Text>
-			Ali bahçesine her hafta yalnızca pazar günü
-			gitmektedir. Ali, bahçesine diktiği 40 cm uzunluğundaki
-			bir ağacı, birkaç hafta sonra budayarak boyunu 25 cm
-			kısaltmıştır.
-
-			Budanmadan önce her hafta 2 cm uzayan bu ağacın
-			boyu, budandıktan sonra her hafta 3 cm uzamaya
-			başlamıştır. Ali, bu ağacı diktikten 11 hafta sonraki
-			boyunun 40 cm olduğunu görmüştür.
-
-			Buna göre, ağacın budandıktan hemen sonraki boyu
-			kaç cm’dir?
-		</Text>
-		<Option>A-) 27</Option>
-		<Option>B-) 28</Option>
-		<Option>C-) 31 </Option>
-		<Option>D-) 34</Option>
-		<Option>E-) 36</Option>
 		<CorrectIndex>2</CorrectIndex>
 		<Question>
 			<Text>
-				Bir veri grubundaki sayılar küçükten büyüğe doğru
-				sıralandığında gruptaki terim sayısı tek ise ortadaki
-				sayıya, çift ise ortadaki iki sayının aritmetik ortalamasına
-				o veri grubunun ortancası (medyan) denir.
-
-				Sayılardan oluşan bir veri grubunda, verilerin ortanca
-				ile olan farklarının mutlak değerlerinin toplamına
-				ortancanın temsil gücü denir.
-
-				Küçükten büyüğe doğru sıralanmış
-				24, 24, 28, 32, 32, a
-
-				veri grubunda ortanca ile ortancanın temsil gücü birbirine eşittir.
-
-				Buna göre, a kaçtır?
+				İnsanda denetleyici ve düzenleyici sistemin bir
+				parçasını oluşturan hormonal sistem ile ilgili,
+				
+				I. Bir hormonun etki gösterebilmesi için tüm vücut
+				hücrelerinde bağlanabileceği reseptörlerin bulunması gerekir.
+				II. Hormonlar salgılandıkları endokrin bezlerden
+				vücut hücrelerine kan yoluyla taşınır.
+				III. Vücudun hormonal sistem aracılığıyla uyarılara
+				karşı tepki verme hızı, sinir sistemi aracılığıyla verilene göre daha yavaştır.
+				
+				genellemelerinden hangileri doğrudur?
 			</Text>
-			<Option>A-) 34</Option>
-			<Option>B-) 36</Option>
-			<Option>C-) 38 </Option>
-			<Option>D-) 40</Option>
-			<Option>E-) 42</Option>
-			<CorrectIndex>4</CorrectIndex>
+			<Option>A-) Yalnız I</Option>
+			<Option>B-) Yalnız II</Option>
+			<Option>C-) I ve II</Option>
+			<Option>D-) II ve III</Option>
+			<Option>E-) I, II ve III</Option>
+			<CorrectIndex>3</CorrectIndex>
 			<Question>
 				<Text>
-					Bir videonun belirli bir kısmına ait oynatma hızı; o
-					kısmın normal süresinin, izlendiğinde geçecek süreye oranı olarak tanımlanmaktadır.
-
-					Örneğin; bir filmin normal süresi 100 dakika olan bir
-					kısmı, oynatma hızı 2 olarak izlendiğinde 50 dakika sürmektedir.
-
-					Cansu normal süresi 135 dakika olan bir filmi saat
-					12.00’de 1,25 oynatma hızı ile izlemeye başlamış ve bir
-					süre sonra 20 dakikalık yemek molası vermiştir. Yemek
-					molasından sonra filmi kaldığı yerden 1,5 oynatma hızı
-					ile izleyerek saat 14.00’te bitirmiştir.
-
-					Buna göre, Cansu yemek molasına saat kaçta başlamıştır?
+					Aynı uzunlukta iki DNA molekülü üzerinde araştırma
+					yapan bir öğrenci, birinci DNA molekülündeki guanin ile
+					sitozin bazlarının toplam sayısının, ikinci DNA
+					molekülündekine göre daha fazla olduğunu gözlemliyor.
+					Buna göre, öğrencinin üzerinde çalıştığı birinci DNA molekülü ile ilgili,
+					
+					I. İkinci DNA molekülüyle aynı nükleotit dizilimine sahiptir.
+					II. İkinci DNA molekülüne göre yüksek sıcaklığa karşı daha dayanıklıdır.
+					III. İçerdiği fosfodiester bağı sayısı ikinci DNA molekülünden daha fazladır.
+					
+					yargılarından hangileri doğrudur?
 				</Text>
 				<Option>
-					A-) 12.40
+					A-) Yalnız I
 				</Option>
 				<Option>
-					B-) 12.50
+					B-) Yalnız II
 				</Option>
 				<Option>
-					C-) 13.00
-				</Option>
-				<Option>
-					D-) 13.10
-				</Option>
-				<Option>
-					E-) 13.20
-				</Option>
-				<CorrectIndex>2</CorrectIndex>
-			</Question>
-			<Question>
-				<Text>
-					Rakamları birbirinden farklı üç basamaklı bir ABC
-					doğal sayısının rakamları küçükten büyüğe doğru
-					sıralandığında ardışık üç sayı elde ediliyorsa ABC
-					sayısına sıralı sayı denir. Örneğin, 132 sayısı bir sıralı
-					sayıdır.
+					C-) Yalnız III
 
-					Üç basamaklı A7B ve 3BC doğal sayıları birer sıralı
-					sayıdır.
+				</Option>
+				<Option>
+					D-) I ve III
+				</Option>
+				<Option>
+					E-) II ve III
 
-					Buna göre, A + B + C toplamı kaçtır?
-				</Text>
-				<Option>A-) 12 </Option>
-				<Option>B-) 13</Option>
-				<Option>C-) 14</Option>
-				<Option>D-) 15 </Option>
-				<Option>E-) 16 </Option>
-				<CorrectIndex>4</CorrectIndex>
-			</Question>
-			<Question>
-				<Text>
-					AB ve BA iki basamaklı doğal sayılar olmak üzere,
-					AB*BA
-					çarpımı 30 ile tam bölünmektedir.
-
-					Buna göre, A + B toplamı kaçtır?
-				</Text>
-				<Option>
-					A-) 8
-				</Option>
-				<Option>
-					B-) 9
-				</Option>
-				<Option>
-					C-) 12
-				</Option>
-				<Option>
-					D-) 15
-				</Option>
-				<Option>
-					E-) 16
 				</Option>
 				<CorrectIndex>1</CorrectIndex>
 			</Question>
 			<Question>
 				<Text>
-					A, B ve C birbirinden farklı rakamlar, AB ve BC iki
-					basamaklı ardışık tek doğal sayılar olmak üzere,
+					Çeşitli ökaryotik hücrelerde gerçekleşen;
+					
+					I. glikoliz,
+					II. Krebs döngüsü,
+					III. etil alkol fermantasyonu,
+					IV. laktik asit fermantasyonu
+					
+					olaylarının hangilerinde FAD’ın indirgenmesi
+					gerçekleşir?
 
-					AB &lt; BC
-
-					eşitsizliği veriliyor.
-
-					Buna göre, A + B + C toplamı kaçtır?
+				</Text>
+				<Option>A-) Yalnız II</Option>
+				<Option>B-) I ve II</Option>
+				<Option>
+					C-) I ve III
+				</Option>
+				<Option>D-) III ve IV</Option>
+				<Option>E-) I, II ve IV</Option>
+				<CorrectIndex>0</CorrectIndex>
+			</Question>
+			<Question>
+				<Text>
+					İnsanda iskelet kaslarının kasılmasıyla ilgili
+					aşağıdaki ifadelerden hangisi yanlıştır?					
 				</Text>
 				<Option>
-					A-) 12
+					A-) skelet kaslarının kasılmasında Ca2+ iyonlarına gereksinim duyulur.
+
 				</Option>
 				<Option>
-					B-) 13
+					B-) Kasılma sırasında iskelet kası hücrelerindeki aktin ve
+					miyozin iplikçiklerinin boyu kısalır.
+
 				</Option>
 				<Option>
-					C-) 17
+					C-) İskelet kasları enerji kaynağı olarak glikojeni
+					kullanabilir.
 				</Option>
 				<Option>
-					D-) 18
+					D-) İskelet kası hücrelerinin uyarılması motor sinirlerle
+					gerçekleşir.
+
 				</Option>
 				<Option>
-					E-) 20
+					E-) İskelet kaslarında kasılma sırasında sarkomerlerin
+					boyu kısalır.
+
 				</Option>
+				<CorrectIndex>1</CorrectIndex>
+			</Question>
+			<Question>
+				<Text>
+					Bitkilerde suyun, kökten gövde ve yapraklara
+					taşınmasıyla ilgili aşağıdaki ifadelerden hangisi
+					yanlıştır?
+
+				</Text>
+				<Option>
+					A-) Terleme ile oluşan basınç farkı, suyun ksilemde
+					taşınmasında etkilidir.
+				</Option>
+				<Option>
+					B-) Su, ksilemde kökten yukarıya doğru aktif taşıma
+					ile taşınır.
+				</Option>
+				<Option>
+					C-) Ksilem içinde suyun taşınması tek yönlü olarak
+					gerçekleşir.
+
+				</Option>
+				<Option>
+					D-) Su molekülleri ile ksilemin çeperindeki selüloz
+					molekülleri etkileşir.
+				</Option>
+				<Option>
+					E-) Ksilemdeki su yukarı doğru çekildikçe kökte
+					ozmotik basınç artar.
+				</Option>
+				<CorrectIndex>1</CorrectIndex>
+			</Question>
+			<Question>
+				<Text>
+					Çiçekli bir bitkinin eşeyli üreme döngüsü
+					incelendiğinde aşağıdaki olaylardan hangisinin
+					meydana gelen yavrular arasında genetik çeşitliliğe
+					katkısının olması beklenmez?
+				</Text>
+				<Option>A-) Mikrospor ana hücresinden mikrosporların oluşumu</Option>
+				<Option>B-) Megaspor ana hücresinden megaspor oluşumu</Option>
+				<Option>C-) Çifte döllenmenin gerçekleşmesi</Option>
+				<Option>D-) Yumurta hücresinin döllenmesiyle zigotun oluşumu</Option>
+				<Option>E-) Megaspordan yumurta hücresi oluşumu</Option>
 				<CorrectIndex>4</CorrectIndex>
 			</Question>
 			<Question>
 				<Text>
-					Bir yemek firmasında satılan A ve B ürünlerinin uygun
-					saklama sıcaklıkları santigrat derece (C) türünden
-					sırasıyla SA ve SB olmak üzere bu değerler;
-
-					|SA + 1| &lt; 5
-					|SB - 13| &lt; 7
-
-					eşitsizliklerini sağlamaktadır. Uygun saklama sıcaklığı
-					sağlanmadığında ürünler bozulmaktadır.
-
-					Buna göre, aşağıda santigrat derece (C) türünden
-					verilen sıcaklıklardan hangisinde bu iki ürün de bozulur?
+					Poliribozomlar ile ilgili
+					
+					I. Poliribozomdaki her bir ribozomda farklı polipeptit
+					sentezlenir.
+					II. Tek bir mRNA üzerine birden çok ribozom
+					tutunabilir.
+					III. Bir mRNA’nın çok sayıda kopyasının üretilmesini
+					sağlar.
+					
+					ifadelerinden hangileri doğrudur?
 				</Text>
-				<Option>A-) -1</Option>
-				<Option>B-) 0</Option>
-				<Option>C-) 3</Option>
-				<Option>D-) 5</Option>
-				<Option>E-) 7 </Option>
-				<CorrectIndex>4</CorrectIndex>
-			</Question>
-			<Question>
-				<Text>
-					a bir tam sayı olmak üzere,
-
-					B = {2,4,8,a}
-
-					kümesinin her bir elemanı 2 ile çarpılarak dört elemanlı
-					yeni bir küme elde ediliyor.
-
-					Bu iki kümenin kesişim kümesi 3 elemanlı olduğuna
-					göre, a’nın alabileceği değerler toplamı kaçtır?
-				</Text>
-				<Option>A-) 12 </Option>
-				<Option>B-) 15 </Option>
-				<Option>C-) 17 </Option>
-				<Option>D-) 20</Option>
-				<Option>E-) 21</Option>
-				<CorrectIndex>2</CorrectIndex>
-			</Question>
-			<Question>
-				<Text>
-					Mine, tahtaya yazdığı aşağıdaki beş sayıdan her birini
-					üslü sayı olarak ifade ediyor.
-
-					8 - 9 - 36 - 64 - 81
-
-					Mine, bu sayılardan birini tahtadan sildikten sonra kalan
-					dört sayıdan her birinin, ya tabanının ya da kuvvetinin
-					3 sayısına eşit olduğunu görüyor.
-
-					Buna göre, Mine’nin tahtadan sildiği sayı kaçtır?
-				</Text>
+				<Option>A-) Yalnız II</Option>
+				<Option>B-) Yalnız III</Option>
 				<Option>
-					A-) 8
+					C-) I ve II
 				</Option>
+				<Option>D-) I ve III </Option>
 				<Option>
-					B-) 9
-				</Option>
-				<Option>
-					C-) 36
-				</Option>
-				<Option>
-					D-) 64
-				</Option>
-				<Option>
-					E-) 81
-				</Option>
-				<CorrectIndex>2</CorrectIndex>
-			</Question>
-			<Question>
-				<Text>
-					Bir paraşütle atlama kursundaki egitmen, kursiyerlerine
-					aşağıdaki açıklamayı yapmıştır:
-					“Yerden 800 metre yükseklikteki bir uçaktan atlarken
-					yere güvenli bir şekilde inebilmeniz için uçaktan
-					atladıktan 400 ila 500 metre sonra paraşütünüzü
-					açmanız gerekmektedir.”
-
-					Buna göre, yere güvenli bir şekilde inebilmek için
-					paraşüt açıldığı anda yerden yüksekliğin alabileceği
-					değerleri ifade eden eşitsizlik aşağıdakilerden
-					hangisidir?
-				</Text>
-				<Option>
-					A-) |x - 350| &#8804; 50
-				</Option>
-				<Option>
-					B-) |x - 300| &#8804; 100
-				</Option>
-				<Option>
-					C-) |x - 250| &#8804; 150
-				</Option>
-				<Option>
-					D-) |x - 200| &#8804; 200
-				</Option>
-				<Option>
-					E-) |x - 150| &#8804; 250
+					E-) I, II ve III
 				</Option>
 				<CorrectIndex>0</CorrectIndex>
 			</Question>
 			<Question>
 				<Text>
-					Bir veri grubundaki sayılar küçükten büyüğe doğru sıralandığında gruptaki terim sayısı tek ise ortadaki
-					sayıya, çift ise ortadaki iki sayının aritmetik ortalamasına o veri grubunun medyanı (ortanca) denir.
-					9 kişilik bir voleybol takımının oyuncularının yaşları ve
-					boyları, ilk bileşen yaşlarını ikinci bileşen ise boylarını
-					göstermek üzere boylarına göre sıralı veri grubu
-					(18; 1,76), (17; 1,79), (18; 1,82), (19; 1,84), (20; 1,84),
-					(21; 1,88), (17; 1,90), (20; 1,92), (19; 1,96) olarak verilmiştir.
+					Durgun bir ambulansın sireni, frekansı 1600 Hz olan
+					ses dalgaları yayıyor. Bu ambulans aynı frekansta ses
+					dalgaları yayarken sabit hızla doğrusal bir yolda
+					harekete başladığında Altay’dan uzaklaşmaktayken
+					Asuman’a yaklaşmaktadır. Ahmet ise ambulansta oturmaktadır.
+					
+					Buna göre ambulans hareket hâlindeyken Ahmet,
+					Asuman ve Altay’ın işittiği ses dalgalarının
+					frekansıyla ilgili aşağıdakilerden hangisi doğru olabilir?
 
-					Bu 9 kişilik takımdan bir oyuncu ayrılmış ancak kalan
-					oyuncuların hem yaşlarının hem de boylarının medyanı değişmemiştir.
-
-					Buna göre, bu takımdan ayrılan oyuncunun yaşı ve
-					boyu aşağıdakilerin hangisinde doğru olarak verilmiştir?
 				</Text>
-				<Option>A-) (17; 1,79)</Option>
-				<Option>B-) (17; 1,90)</Option>
-				<Option>C-) (19; 1,84)</Option>
-				<Option>D-) (19; 1,96)</Option>
-				<Option>E-) (21; 1,88)</Option>
-				<CorrectIndex>1</CorrectIndex>
+				<Option>
+					A-) Ahmet’in işittiği frekans 1900 Hz’dir.
+
+				</Option>
+				<Option>
+					B-) Altay’ın işittiği frekans 1800 Hz’dir
+				</Option>
+				<Option>
+					C-) Asuman’ın işittiği frekans 1700 Hz’dir
+				</Option>
+				<Option>
+					D-) Asuman’ın işittiği frekans 1500 Hz’dir
+				</Option>
+				<Option>
+					E-) Altay’ın işittiği frekans 1600 Hz’dir.
+				</Option>
+				<CorrectIndex>2</CorrectIndex>
 			</Question>
 			<Question>
 				<Text>
-					AAB ve ABA doğal sayıları 9'a tam bölünen
-					üç basamaklı birer sayı olmak üzere, bu sayılardan
-					biri 5’e diğeri ise 12’ye tam bölünmektedir.
+					Sağlıklı bir insanda kılcal damarlar ve doku sıvısı
+					arasında gerçekleşen madde alışverişiyle ilgili
+					aşağıdakilerden hangisi doğrudur?
+				</Text>
+				<Option>
+					A-) Glikoz ve amino asitler ile birlikte alyuvarlar da doku
+					sıvısına geçer.
+				</Option>
+				<Option>
+					B-) Kılcal damarın atardamar ucundaki kan basıncı,
+					toplardamar ucundaki kan basıncından düşüktür.
+				</Option>
+				<Option>
+					C-) Kılcal damarların atardamar ucundan toplardamar
+					ucuna gidildikçe osmotik basınç düşer.
 
-					Buna göre,A + B toplamı kaçtır?
+				</Option>
+				<Option>
+					D-) Kılcal damarların atardamar ucundan doku sıvısına
+					geçen madde miktarı, toplardamar ucunda geri
+					kazanılan madde miktarından daha azdır.
+
+				</Option>
+				<Option>
+					E-) Doku sıvısından kana madde geçişinde osmotik
+					basıncın rolü vardır.
+				</Option>
+				<CorrectIndex>4</CorrectIndex>
+			</Question>
+			<Question>
+				<Text>
+					Miyelin kılıf ile ilgili
+					
+					I. Miyelin kılıflı aksonlarda impuls iletimi görece daha
+					hızlıdır.
+					II. Sinir sistemindeki tüm nöronların aksonlarında
+					miyelin kılıf bulunur.
+					III. Akson üzerindeki Ranvier boğumlarında miyelin
+					kılıf yer almaz.
+					
+					ifadelerinden hangileri doğrudur?
+				</Text>
+				<Option>A-) Yalnız III </Option>
+				<Option>B-) I ve II </Option>
+				<Option>
+					C-) I ve III
+				</Option>
+				<Option>D-) II ve III</Option>
+				<Option>E-) I, II ve III</Option>
+				<CorrectIndex>2</CorrectIndex>
+			</Question>
+			<Question>
+				<Text>
+					Belirli bir sıcaklıkta 8,5 g NH3 gazı suda çözülerek
+					1 L çözelti hazırlanıyor.
+					
+					Çalışılan sıcaklıkta NH3 suda %0,02 oranında
+					iyonlaştığına göre çözeltinin pH değeri kaçtır?
+					(NH3 = 17 g/mol; çalışılan sıcaklıkta Ksu = 1 x 10-14(üssü))
 
 				</Text>
 				<Option>
-					A-) 7
+					A-) 4
 				</Option>
 				<Option>
-					B-) 8
+					B-) 6
 				</Option>
 				<Option>
-					C-) 9
+					C-) 8
 				</Option>
 				<Option>
 					D-) 10
 				</Option>
 				<Option>
-					E-) 11
+					E-) 12
 				</Option>
-				<CorrectIndex>0</CorrectIndex>
+				<CorrectIndex>3</CorrectIndex>
 			</Question>
 			<Question>
 				<Text>
-					Kare dik prizma içinde bir tahtanın üç yüzeyi
-					beyaza, diğer üç yüzeyi ise kırmızıya boyanmıştır.
-					Beyaza boyanan yüzeylerin alanları toplamı
-					76 birimkare, kırmızıya boyanan yüzeylerin alanları
-					toplamı ise 12 birimkaredir.
-
-					Buna göre, bu tahtanın hacmi kaç birimküptür?
+					Sürtünmelerin ihmal edildiği bir ortamda duvar
+					ustası Veysel’in ağır bir taş bloğu 2 m yükseklikteki
+					duvarın üstüne yerleştirmek için yerden alıp
+					kaldırmak yerine eğik düzlemde sabit hızla çekerek
+					yukarı çıkarması
+					
+					I. yoldan kazanç sağlamak,
+					II. daha küçük kuvvet uygulamak,
+					III. daha az iş yapmak
+					
+					amaçlarından hangilerine hizmet eder?
 				</Text>
-				<Option>A-) 18</Option>
+				<Option>A-) Yalnız I</Option>
 				<Option>
-					B-) 24
+					B-) Yalnız II
 				</Option>
 				<Option>
-					C-) 27
+					C-) Yalnız III
+
 				</Option>
 				<Option>
-					D-) 32
+					D-) I ve II
 				</Option>
 				<Option>
-					E-) 36
+					E-) I ve III
+
 				</Option>
 				<CorrectIndex>1</CorrectIndex>
 			</Question>

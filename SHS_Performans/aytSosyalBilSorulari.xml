@@ -3,531 +3,569 @@
 <Questions>
 	<Question>
 		<Text>
-			Bozuk bir bilgisayar klavyesinde bulunan T ve Y
-			tuşlarına basıldığında bu harflerin ekranda görünme
-			olasılığı ile ilgili aşağıdakiler bilinmektedir.
-
-			 Klavyede T tuşuna basıldığında ekranda T harfinin
-			görünme olasılığı 3/4, Y harfinin görünme
-			olasılığı 1/4’tür.
-
-			 Klavyede Y tuşuna basıldığında ekranda Y harfinin
-			görünme olasılığı 2/3, T harfinin görünme
-			olasılığı 1/3’tür.
-
-			Buna göre, klavyede sırasıyla T, T ve Y tuşlarına
-			basıldığında ekranda TYT görünme olasılığı kaçtır?
+			Anadolu’daki Neolitik Dönem köy yerleşkelerinden
+			olan Diyarbakır Çayönü ile ilgili araştırma yapan bir
+			bilim insanı, aşağıdaki tarihe yardımcı bilim
+			dallarının hangisinden yararlanabilir?
 		</Text>
 		<Option>
-			A-) 1/12
+			A-) Antropoloji
 		</Option>
 		<Option>
-			B-) 1/16
+			B-) Nümizmatik
 		</Option>
 		<Option>
-			C-) 1/24
+			C-) Paleografya
 		</Option>
 		<Option>
-			D-) 1/32
+			D-) Epigrafi
 		</Option>
 		<Option>
-			E-) 1/48
-		</Option>
-		<CorrectIndex>1</CorrectIndex>
-	</Question>
-	<Question>
-		<Text>
-			Bisiklet almayı çok isteyen Bilge’ye babası;
+			E-) Diplomatik
 
-			“Sana söz veriyorum, kumbaranda en az 500 TL
-			olduğu ilk gün o bisikleti almaya gideceğiz.”
-			demiştir.
-
-			Bunun üzerine Bilge, o günden başlayarak hiç
-			aksatmadan başlangıçta boş olan kumbarasına hafta içi
-			her gün 20 TL, hafta sonu her gün ise 25 TL atmaya
-			başlamıştır. Babası sözünü tutmuş ve bir cumartesi
-			günü Bilge’yi o bisikleti almaya götürmüştür.
-
-			Buna göre, babası Bilge’ye bu sözü hangi gün
-			söylemiştir?
-		</Text>
-		<Option>A-) Pazartesi</Option>
-		<Option>B-) Salı</Option>
-		<Option>C-) Çarşamba</Option>
-		<Option>D-) Perşembe</Option>
-		<Option>E-) Cuma</Option>
-		<CorrectIndex>3</CorrectIndex>
-	</Question>
-	<Question>
-		<Text>
-			Tarık bir bölgede bulunan tüm müzeleri listelemiştir. Bu
-			listedeki müzelerden gittiklerinin gitmediklerine oranı
-			1/2 iken daha önce gitmediği 12 müzeyi tatilde ziyaret
-			etmiş ve sonrasında bu oran 2/3 olmuştur.
-
-			Buna göre, Tarık'ın listesinde bulunan müze sayısı
-			kaçtır?
-		</Text>
-		<Option>
-			A-) 90
-		</Option>
-		<Option>
-			B-) 120
-		</Option>
-		<Option>
-			C-) 150
-		</Option>
-		<Option>
-			D-) 180
-		</Option>
-		<Option>
-			E-) 210
-		</Option>
-		<CorrectIndex>3</CorrectIndex>
-	</Question>
-	<Question>
-		<Text>
-			Yalnızca fındık ve şekerden oluşan bir fındık ezmesi
-			tarifinde fındık ve şeker belirli bir oranda
-			karıştırılmaktadır.
-
-			Bu tarife göre; 21 kilogram şeker ve 42 kilogram
-			fındığın bulunduğu birinci imalathanede fındık ezmesi
-			üretildiğinde yalnızca 9 kilogram şekerin arttığı,
-			16 kilogram şeker ve 64 kilogram fındığın bulunduğu
-			ikinci imalathanede fındık ezmesi üretildiğinde yalnızca
-			belirli miktarda fındığın arttığı görülmüştür.
-
-			Buna göre, ikinci imalathanede artan fındık miktarı
-			kaç kilogramdır?
-		</Text>
-		<Option>
-			A-) 6
-		</Option>
-		<Option>
-			B-) 8
-		</Option>
-		<Option>
-			C-) 9
-		</Option>
-		<Option>
-			D-) 10
-		</Option>
-		<Option>
-			E-) 12
-		</Option>
-		<CorrectIndex>1</CorrectIndex>
-	</Question>
-	<Question>
-		<Text>
-			Bir dijital saatin ilk iki hanesi saat kısmını, diğer iki
-			hanesi dakika kısmını göstermektedir. Örneğin, saat
-			11.05 iken dijital saatin saat hanesinde 11, dakika
-			hanesinde 05 görünmektedir.
-
-			Melis, katıldığı bir toplantı bittiğinde duvardaki
-			dijital saate bakmış ve bu saatin saat hanesinde
-			15 sayısını görmüştür. Arkadaşı Melis’e, toplantı
-			boyunca saat hanesinde 15 sayısının görüldüğü
-			sürenin, toplantı süresinin % 25’i olduğunu söylemiştir.
-
-			Toplantı 108 dakika sürdüğüne göre, toplantının
-			başlangıç saati kaçtır?
-
-		</Text>
-		<Option>
-			A-) 13.39
-		</Option>
-		<Option>
-			B-) 13.42
-		</Option>
-		<Option>
-			C-) 13.45
-		</Option>
-		<Option>
-			D-) 13.48
-		</Option>
-		<Option>
-			E-) 13.51
 		</Option>
 		<CorrectIndex>0</CorrectIndex>
 	</Question>
 	<Question>
 		<Text>
-			Emre her sayfasında eşit sayıda soru bulunan 6 sayfalık
-			bir anketteki tüm soruları, anketin 1. sayfasından
-			başlayarak sırasıyla cevaplamıştır. Emre, 2. sayfada
-			3 soru cevapladığında anketin % 20’sini tamamlamıştır.
+			“Biz ki Sultan Murat Han oğlu padişah Sultan Mehmet
+			Han’ız; Galata halkının, bize bağlı olan diğer halklar gibi,
+			âdet ve ibadetlerini serbestçe yapmalarına izin
+			veriyoruz. Halkın barınakları, dükkân, bağ, değirmen,
+			ticarethane ve diğer mallarına dokunulmayacaktır. Bu
+			bölge halkı kiliselerinde diledikleri gibi ayin
+			düzenleyebileceklerdir. Burada yazılı olduğu gibi
+			vergisini verenler, kanunlara uyanlar serbesttir.”
+			Bu metin aşağıda verilen Osmanlı yönetim
+			
+			uygulamasıyla ilgili terimlerden hangisinin
+			karşılığıdır?
 
-			Buna göre, Emre 5. sayfada 3 soru cevapladığında
-			anketin yüzde kaçını tamamlamış olur?
 		</Text>
-		<Option>A-) 81</Option>
-		<Option>B-) 80</Option>
-		<Option>C-) 75 </Option>
-		<Option>D-) 72</Option>
-		<Option>E-) 70</Option>
+		<Option>A-) Müsadere </Option>
+		<Option>B-) Mukataa</Option>
+		<Option>
+			C-) Ahidname
+		</Option>
+		<Option>D-) ltizam </Option>
+		<Option>
+			E-) İcazetname
+		</Option>
+		<CorrectIndex>2</CorrectIndex>
+	</Question>
+	<Question>
+		<Text>
+			Orta Çağ sonlarında Avrupa’da bilimin, kilisenin
+			baskı ve denetiminden kurtulmaya başlamasında;
+			
+			I. Feodal düzen,
+			II. Haçlı Seferleri,
+			III. Coğrafi Keşifler
+			
+			unsurlarından hangilerinin etkili olduğu
+			söylenebilir?
+		</Text>
+		<Option>
+			A-) Yalnız I
+		</Option>
+		<Option>
+			B-) Yalnız II
+		</Option>
+		<Option>
+			C-) Yalnız III
+		</Option>
+		<Option>
+			D-) I ve II
+		</Option>
+		<Option>
+			E-) II ve III
+
+		</Option>
 		<CorrectIndex>4</CorrectIndex>
 	</Question>
 	<Question>
 		<Text>
-			Bir arkadaşı Ayşe'ye oturdukları evin ne zaman
-			yapıldığını sormuştur. Ayşe de
+			I. Ben size taarruz emretmiyorum, ölmeyi
+			emrediyorum.
+			II. Hattı müdafaa yoktur, sathı müdafaa vardır.
+			O satıh bütün vatandır.
+			III. Ordular ilk hedefiniz Akdeniz’dir. İleri!
+			IV. Geldikleri gibi giderler.
+			
+			Mustafa Kemal Atatürk’ün birtakım olaylar ve
+			gelişmeler karşısında söylemiş olduğu bu sözlerin
+			kronolojik sıralaması aşağıdakilerin hangisinde
+			doğru olarak verilmiştir?
 
-			 evin 1990 yılındaki yaşının kendisinin bugünkü
-			yaşına,
-
-			 evin 2000 yılındaki yaşının eşinin bugünkü yaşına,
-
-			 evin 2020 yılındaki yaşının kendisi ile eşinin
-			bugünkü yaşları toplamına eşit olduğunu soylemiştir.
-
-			Buna göre, Ayşe’nin oturduğu ev hangi yılda yapılmıştır?
 		</Text>
 		<Option>
-			A-) 1960
+			A-) I - IV - II - II
 		</Option>
 		<Option>
-			B-) 1965
+			B-) I - IV - III - II
 		</Option>
 		<Option>
-			C-) 1970
+			C-) II - III - IV - I
 		</Option>
 		<Option>
-			D-) 1975.
+			D-) IV - II - I - III
 		</Option>
 		<Option>
-			E-) 1980
+			E-) IV - I - III - II
 		</Option>
+		<CorrectIndex>0</CorrectIndex>
+	</Question>
+	<Question>
+		<Text>
+			Türkiye’de ekonomiyle ilgili yapılan aşağıdaki yasal
+			düzenlemelerden hangisi, Atatürk Dönemi’nde
+			gerçekleştirilmemiştir?
+
+		</Text>
+		<Option>
+			A-) Yol Mükellefiyeti Kanunu
+		</Option>
+		<Option>
+			B-) Teşvik-i Sanayi Kanunu
+
+		</Option>
+		<Option>
+			C-) Kabotaj Kanunu
+		</Option>
+		<Option>
+			D-) Millî Korunma Kanunu 
+		</Option>
+		<Option>
+			E-) Türk Ticaret Kanunu
+
+		</Option>
+		<CorrectIndex>3</CorrectIndex>
+	</Question>
+	<Question>
+		<Text>
+			Bir coğrafya öğretmeni, dersinde sanayi faaliyetlerinin
+			dağılışını etkileyen faktörleri anlatırken: “Türkiye’de
+			genellikle tarım ürünlerini işleyen sanayi tesisleri,
+			ürünlerin yetiştirildiği alanlara yakın yerlerde
+			kurulmaktadır.” demiştir.
+			
+			Öğretmen, bu ifadesinde sanayi tesislerinin
+			aşağıdaki kuruluş koşullarından hangisini
+			vurgulamıştır?
+
+		</Text>
+		<Option>A-) Enerji kaynakları </Option>
+		<Option>B-) Pazar</Option>
+		<Option>C-) Ham madde</Option>
+		<Option>
+			D-) İş gücü
+		</Option>
+		<Option>E-) Sermaye</Option>
 		<CorrectIndex>2</CorrectIndex>
 	</Question>
 	<Question>
 		<Text>
-			Ali bahçesine her hafta yalnızca pazar günü
-			gitmektedir. Ali, bahçesine diktiği 40 cm uzunluğundaki
-			bir ağacı, birkaç hafta sonra budayarak boyunu 25 cm
-			kısaltmıştır.
+			Tarıma dayalı ekonominin ön planda olduğu
+			Doğu Anadolu’da; çok parçalı tarım alanlarının, düşük
+			verimliliğin, iklime bağlı olarak özellikle ulaşım
+			hizmetlerinde sorunlar yaşanmasının ve kırsal kesimin
+			pazar ekonomisi ile bütünleşememesinin önüne geçmek
+			için Doğu Anadolu Projesi geliştirilmiştir.
 
-			Budanmadan önce her hafta 2 cm uzayan bu ağacın
-			boyu, budandıktan sonra her hafta 3 cm uzamaya
-			başlamıştır. Ali, bu ağacı diktikten 11 hafta sonraki
-			boyunun 40 cm olduğunu görmüştür.
-
-			Buna göre, ağacın budandıktan hemen sonraki boyu
-			kaç cm’dir?
+			Aşağıdakilerden hangisi bu kalkınma projesinin
+			temel amaçlarından biri değildir?
 		</Text>
-		<Option>A-) 27</Option>
-		<Option>B-) 28</Option>
-		<Option>C-) 31 </Option>
-		<Option>D-) 34</Option>
-		<Option>E-) 36</Option>
-		<CorrectIndex>2</CorrectIndex>
+		<Option>
+			A-) Kentleşme, altyapı ve çevre sorunlarını azaltmak
+		</Option>
+		<Option>
+			B-) Tarım ve hayvancılık sektöründe verim ve gelir artışı
+			sağlamak
+		</Option>
+		<Option>
+			C-) Bölge dışına göçü azaltmak ve göçlere bağlı olarak
+			gelişen sorunları en aza indirmek
+
+		</Option>
+		<Option>
+			D-) Bölge halkının refah seviyesini yükseltip bölgeler arası
+			dengesizliği azaltmak
+
+		</Option>
+		<Option>
+			E-) Bölgede ağır sanayiye bağlı bir ekonomiye geçiş
+			yapmak
+		</Option>
+		<CorrectIndex>4</CorrectIndex>
+	</Question>
+	<Question>
+		<Text>
+			I. Kuzey Atlantik Antlaşması Örgütü
+			II. Petrol İhraç Eden Ülkeler Örgütü
+			III. Bağımsız Devletler Topluluğu
+			
+			Yukarıdaki örgütlerin hangilerinde üye ülkelerin
+			ekonomik iş birliğini artırmak ve ekonomik
+			çıkarlarını korumak amaçları bulunmaktadır?
+		</Text>
+		<Option>A-) Yalnız I</Option>
+		<Option>B-) Yalnız II</Option>
+		<Option>C-) Yalnız III</Option>
+		<Option>D-) I ve II </Option>
+		<Option>E-) II ve III</Option>
+		<CorrectIndex>4</CorrectIndex>
 		<Question>
 			<Text>
-				Bir veri grubundaki sayılar küçükten büyüğe doğru
-				sıralandığında gruptaki terim sayısı tek ise ortadaki
-				sayıya, çift ise ortadaki iki sayının aritmetik ortalamasına
-				o veri grubunun ortancası (medyan) denir.
-
-				Sayılardan oluşan bir veri grubunda, verilerin ortanca
-				ile olan farklarının mutlak değerlerinin toplamına
-				ortancanın temsil gücü denir.
-
-				Küçükten büyüğe doğru sıralanmış
-				24, 24, 28, 32, 32, a
-
-				veri grubunda ortanca ile ortancanın temsil gücü birbirine eşittir.
-
-				Buna göre, a kaçtır?
+				Nüfusun fazla, sanayi ve hizmet sektörünün ağırlıkta
+				olduğu kentlerde yaşayanlar; kentin sıkıcı yaşamından
+				kurtulmak, eğlenmek, dinlenmek ve kendilerini
+				geliştirmek amacıyla çeşitli sosyal ve kültürel faaliyetlere katılabilirler.
+				
+				Bu faaliyetlere;
+				I. boş zamanlarında sanatsal veya sportif etkinliklere katılmaları,
+				II. zorunlu çalışma zamanlarının dışında daha fazla
+				gelir için ek işler yapmaları,
+				III. kendini geliştirmek isteyenlerin beceri ve hobi kurslarına devam etmeleri
+				
+				durumlarından hangileri örnek gösterilemez?
 			</Text>
-			<Option>A-) 34</Option>
-			<Option>B-) 36</Option>
-			<Option>C-) 38 </Option>
-			<Option>D-) 40</Option>
-			<Option>E-) 42</Option>
-			<CorrectIndex>4</CorrectIndex>
+			<Option>A-) Yalnız I</Option>
+			<Option>B-) Yalnız II</Option>
+			<Option>C-) Yalnız III</Option>
+			<Option>D-) I ve II </Option>
+			<Option>E-) II ve III</Option>
+			<CorrectIndex>1</CorrectIndex>
 			<Question>
 				<Text>
-					Bir videonun belirli bir kısmına ait oynatma hızı; o
-					kısmın normal süresinin, izlendiğinde geçecek süreye oranı olarak tanımlanmaktadır.
-
-					Örneğin; bir filmin normal süresi 100 dakika olan bir
-					kısmı, oynatma hızı 2 olarak izlendiğinde 50 dakika sürmektedir.
-
-					Cansu normal süresi 135 dakika olan bir filmi saat
-					12.00’de 1,25 oynatma hızı ile izlemeye başlamış ve bir
-					süre sonra 20 dakikalık yemek molası vermiştir. Yemek
-					molasından sonra filmi kaldığı yerden 1,5 oynatma hızı
-					ile izleyerek saat 14.00’te bitirmiştir.
-
-					Buna göre, Cansu yemek molasına saat kaçta başlamıştır?
+					Gelişmiş ülkeler; çevre sorunlarının önlenmesine yönelik
+					etkili politikalar, yasal önlemler ve çeşitli uygulamalar
+					geliştirmiştir. Bu politika ve uygulamalar, küresel
+					ekosistemin korunması ve sürdürülebilirliği açısından da
+					önemlidir.
+					
+					Aşağıdakilerden hangisi bu ülkelerin uygulamalarına
+					örnek gösterilemez?
 				</Text>
 				<Option>
-					A-) 12.40
-				</Option>
-				<Option>
-					B-) 12.50
-				</Option>
-				<Option>
-					C-) 13.00
-				</Option>
-				<Option>
-					D-) 13.10
-				</Option>
-				<Option>
-					E-) 13.20
-				</Option>
-				<CorrectIndex>2</CorrectIndex>
-			</Question>
-			<Question>
-				<Text>
-					Rakamları birbirinden farklı üç basamaklı bir ABC
-					doğal sayısının rakamları küçükten büyüğe doğru
-					sıralandığında ardışık üç sayı elde ediliyorsa ABC
-					sayısına sıralı sayı denir. Örneğin, 132 sayısı bir sıralı
-					sayıdır.
+					A-) Çevre sorunlarına karşı bütüncül ve katılıma dayalı bir
+					çevre politikası geliştirmeleri
 
-					Üç basamaklı A7B ve 3BC doğal sayıları birer sıralı
-					sayıdır.
+				</Option>
+				<Option>
+					B-) Sürdürülebilir doğal kaynak kullanımı için
+					düzenlemeler yapmaları
+				</Option>
+				<Option>
+					C-) Kirleten öder ilkesi gereği çevre sorunlarına neden
+					olanlara yasal yaptırımlar uygulamaları
 
-					Buna göre, A + B + C toplamı kaçtır?
-				</Text>
-				<Option>A-) 12 </Option>
-				<Option>B-) 13</Option>
-				<Option>C-) 14</Option>
-				<Option>D-) 15 </Option>
-				<Option>E-) 16 </Option>
+				</Option>
+				<Option>
+					D-) Kamu ve özel sektör ile toplumun çevre sorunlarına
+					karşı sorumluluk almalarını sağlamaları
+
+				</Option>
+				<Option>
+					E-) Koruma alanlarındaki ekonomik değer taşıyan maden
+					rezervlerini işletmeleri
+
+				</Option>
 				<CorrectIndex>4</CorrectIndex>
 			</Question>
 			<Question>
 				<Text>
-					AB ve BA iki basamaklı doğal sayılar olmak üzere,
-					AB*BA
-					çarpımı 30 ile tam bölünmektedir.
-
-					Buna göre, A + B toplamı kaçtır?
+					Determinist evren modelinde gerçeklik, nedenin sonuç üzerindeki istisnasız etkisiyle ifade edilir. Yani eğer
+					başlangıç koşulları ve fizik yasaları hakkında yeterli bilgiye sahipseniz bilardo masasında, topa vurmadan
+					önce, topların birbirlerine hangi kuvvetle çarpacağını, topların hareket yönlerini ve masanın neresinde
+					duracağını öngörebilirsiniz. Bilginiz yeterli ise sizin için masada hiçbir belirsizlik yoktur. Burada belirsizlik, sizin
+					gerçekliği kuşatan ve belirleyen tüm koşulları bilmeniz veya bilmemeniz arasındaki farktan doğmaktadır.
+					
+					Bu parçada söz edilen belirsizliğin nedeni
+					aşağıdakilerden hangisidir?
+				</Text>
+				<Option>A-) Ön kabullerin ispatlanamazlığı</Option>
+				<Option>B-) Epistemik eksiklik</Option>
+				<Option>C-) Neden - sonuç ilişkisindeki kırılmalar</Option>
+				<Option>D-) Gerçekliğin ontolojik yapısı</Option>
+				<Option>E-) Kuramsal hatalar</Option>
+				<CorrectIndex>1</CorrectIndex>
+			</Question>
+			<Question>
+				<Text>
+					H. G. Gadamer’e göre hermeneutik, tarihin ve kültürün
+					bütünü hakkında konuşmanın olanağı olarak “anlamın
+					anlamı” üzerine düşünmeyi ifade etmektedir. Bu
+					düşünmeyi gerçekleştiren özne; düşünmesini belirleyen
+					koşullardan bağımsız değildir, öznenin tarihi ve kültürü
+					anlamasını sağlayacak araçlar olan dilsel eserler ve
+					metinler de aynı koşullar içinde şekillenmektedir.
+					Dolayısıyla hermeneutik, öznenin sahip olduğu anlam
+					oluşturma araçlarının ve kendisine nüfuz edilecek
+					kültürle tarihin bir arada ele alınmasını gerektirmektedir.
+					
+					Bu parçadan hermeneutikle ilgili aşağıdaki yargıların
+					hangisine ulaşılamaz?
 				</Text>
 				<Option>
-					A-) 8
+					A-) Öznenin düşünsel süreçlerini dikkate alır.
 				</Option>
 				<Option>
-					B-) 9
+					B-) Yazılı kültür ürünlerini anlamın kaynağı olarak görür
 				</Option>
 				<Option>
-					C-) 12
+					C-) Geçmiş ve günümüz arasında köprü kurulmasını
+					sağlar.
 				</Option>
 				<Option>
-					D-) 15
+					D-) Özneyi bağımsız ve kendi içinde anlamlandırmayı
+					hedefler.
+
 				</Option>
 				<Option>
-					E-) 16
+					E-) Tarih üzerine refleksiyonda bulunma olanağı sağlar
+				</Option>
+				<CorrectIndex>3</CorrectIndex>
+			</Question>
+			<Question>
+				<Text>
+					Şiddetli bir baş ağrısı yaşayan Yonca, ağrı kesici alır ve
+					baş ağrısı kısa sürede hafifler. Yonca, o günden sonra
+					şiddetli baş ağrısı çektiği her zaman ağrı kesici alarak
+					baş ağrısından kurtulmaya çalışır.
+					
+					Yonca’nın ağrı kesici alarak baş ağrısından
+					kurtulması, aşağıdaki öğrenme kavramlarından
+					hangisine örnektir?
+				</Text>
+				<Option>
+					A-) Sönme
+				</Option>
+				<Option>
+					B-) Genelleme
+				</Option>
+				<Option>
+					C-) Ayırt etme
+				</Option>
+				<Option>
+					D-) Olumsuz pekiştirme
+
+				</Option>
+				<Option>
+					E-) Kendiliğinden geri gelme
+				</Option>
+				<CorrectIndex>3</CorrectIndex>
+			</Question>
+			<Question>
+				<Text>
+					Kişiler bazen rahatsız edici buldukları, hoşa gitmeyen
+					veya tehdit edici içerikli duygu ve düşüncelerini
+					başkalarına yöneltirler. Bu durum, kişinin benliğini
+					kaygıdan koruyan savunma mekanizmaları içinde yer
+					alır ve yansıtma olarak adlandırılır.
+					
+					Buna göre aşağıdakilerden hangisi “yansıtma”ya
+					örnektir?
+
+				</Text>
+				<Option>
+					A-) Bir kişinin eşine yalan söylediği için yoğun suçluluk ve
+					utanç duygusu yaşaması
+				</Option>
+				<Option>
+					B-) Arkadaşına karşı sevgi dolu hisler besleyen birinin
+					arkadaşının kendisinden hoşlanmadığını düşünmesi
+				</Option>
+				<Option>
+					C-) İş yerinde çalışma arkadaşıyla tartışma yaşayan bir
+					kişinin evde çocuğunu nedensiz yere azarlaması
+				</Option>
+				<Option>
+					D-) Komşusunun yeni aldığı arabayı çekemeyen bir kişinin
+					komşusunun sürekli onu kıskandığını söylemesi
+				</Option>
+				<Option>
+					E-) Hangi işi seçeceğine bir türlü karar veremeyen birinin
+					psikolojik destek almaya karar vermesi
+				</Option>
+				<CorrectIndex>3</CorrectIndex>
+			</Question>
+			<Question>
+				<Text>
+					Sanayi öncesi toplumlarda ev ve çalışma hayatı iç içeydi. Üretim, zaten içinde yaşanılan çiftlik veya
+					atölyelerde yapılıyordu. Ancak sanayileşmeyle birlikte büyük çaplı üretim alanları, fabrikalar ve ofisler
+					yaygınlaştı; evde iş yapanların sayısı hızlı bir biçimde azaldı. Son dönemdeki teknolojik gelişmeler ise birçok iş
+					alanının uzaktan yapılabilmesine olanak sağlayarak evden çalışma örneklerini yeniden çoğalttı. Covid-19
+					salgınının insanları evde kalmaya mecbur etmesi iş yaşamındaki bu dönüşümü hızlandırarak gelecekteki
+					çalışma deneyimlerini de etkileyecek köklü değişimlere neden oldu.
+					
+					Bu parçadan toplumsal değişimle ilgili aşağıdaki
+					yargıların hangisine ulaşılabilir?
+				</Text>
+				<Option>
+					A-) Toplumsal gelişmeyi sağlayan, toplumların sahip
+					olduğu kültürel değerlerdir.
+				</Option>
+				<Option>
+					B-) Toplumsal yaşam ile ekonomik koşullar arasında
+					karşılıklı etkileşim vardır.
+				</Option>
+				<Option>
+					C-) Teknolojik gelişmeler her toplumda mesleki
+					farklılaşmalara neden olur.
+				</Option>
+				<Option>
+					D-) Modernleşme sürecinde çalışma hayatı daha konforlu
+					hâle gelmiştir.
+				</Option>
+				<Option>
+					E-) Sanayileşme sonrasında toplumlar gelişimlerini
+					teknolojik bilgiye dayandırmıştır.
 				</Option>
 				<CorrectIndex>1</CorrectIndex>
 			</Question>
 			<Question>
 				<Text>
-					A, B ve C birbirinden farklı rakamlar, AB ve BC iki
-					basamaklı ardışık tek doğal sayılar olmak üzere,
-
-					AB &lt; BC
-
-					eşitsizliği veriliyor.
-
-					Buna göre, A + B + C toplamı kaçtır?
+					Bazı kavramlara örnek oluşturabilecek durumlar şu
+					şekildedir:
+					
+					 Bir banka müdürünün eğitim amacıyla uzun süre yurt dışına çıkması
+					 Bir öğretmenin doktorasını tamamlayıp
+					üniversitede öğretim üyesi olması
+					 Sanayileşmeyle birlikte şehirde yaşayan nüfusun artması
+					 Yeni uzmanlık alanlarının ortaya çıkmasıyla birlikte
+					orta sınıfın güç kazanması
+					
+					Bu parçada aşağıdaki kavramların hangisine örnek verilmemiştir?
 				</Text>
 				<Option>
-					A-) 12
+					A-) Toplumsal tabakalaşma
 				</Option>
 				<Option>
-					B-) 13
+					B-) Kentleşme
+
 				</Option>
 				<Option>
-					C-) 17
+					C-) Dikey hareketlilik
 				</Option>
 				<Option>
-					D-) 18
+					D-) Yatay hareketlilik
 				</Option>
 				<Option>
-					E-) 20
+					E-) Toplumsal bütünleşme
 				</Option>
 				<CorrectIndex>4</CorrectIndex>
 			</Question>
 			<Question>
 				<Text>
-					Bir yemek firmasında satılan A ve B ürünlerinin uygun
-					saklama sıcaklıkları santigrat derece (C) türünden
-					sırasıyla SA ve SB olmak üzere bu değerler;
+					Suç ve sapma bütün toplumlarda kaçınılmaz olarak
+					görülen sosyal gerçekliklerdir. Pek çok durumda birbiriyle örtüşseler de suç, kanunları ihlal edenleri
+					tanımlamakla sınırlıdır. Sapma ise bir topluluk veya toplumdaki insanların çoğu tarafından kabul edilen
+					yerleşik kurallara uymama olarak tanımlanabilir. Çocukluk dönemindeki sosyalleşmenin bir sonucu
+					olarak sosyal kurallara genellikle uymamıza rağmen bazen genel kabul görmüş kuralları ihlal ederiz.
+					
+					Bu parçadan toplumsal sapma ile ilgili aşağıdaki
+					yargıların hangisine ulaşılabilir?
 
-					|SA + 1| &lt; 5
-					|SB - 13| &lt; 7
-
-					eşitsizliklerini sağlamaktadır. Uygun saklama sıcaklığı
-					sağlanmadığında ürünler bozulmaktadır.
-
-					Buna göre, aşağıda santigrat derece (C) türünden
-					verilen sıcaklıklardan hangisinde bu iki ürün de bozulur?
-				</Text>
-				<Option>A-) -1</Option>
-				<Option>B-) 0</Option>
-				<Option>C-) 3</Option>
-				<Option>D-) 5</Option>
-				<Option>E-) 7 </Option>
-				<CorrectIndex>4</CorrectIndex>
-			</Question>
-			<Question>
-				<Text>
-					a bir tam sayı olmak üzere,
-
-					B = {2,4,8,a}
-
-					kümesinin her bir elemanı 2 ile çarpılarak dört elemanlı
-					yeni bir küme elde ediliyor.
-
-					Bu iki kümenin kesişim kümesi 3 elemanlı olduğuna
-					göre, a’nın alabileceği değerler toplamı kaçtır?
-				</Text>
-				<Option>A-) 12 </Option>
-				<Option>B-) 15 </Option>
-				<Option>C-) 17 </Option>
-				<Option>D-) 20</Option>
-				<Option>E-) 21</Option>
-				<CorrectIndex>2</CorrectIndex>
-			</Question>
-			<Question>
-				<Text>
-					Mine, tahtaya yazdığı aşağıdaki beş sayıdan her birini
-					üslü sayı olarak ifade ediyor.
-
-					8 - 9 - 36 - 64 - 81
-
-					Mine, bu sayılardan birini tahtadan sildikten sonra kalan
-					dört sayıdan her birinin, ya tabanının ya da kuvvetinin
-					3 sayısına eşit olduğunu görüyor.
-
-					Buna göre, Mine’nin tahtadan sildiği sayı kaçtır?
 				</Text>
 				<Option>
-					A-) 8
+					A-) Sıra dışı değerleri içselleştirmekle ilgilidir.
 				</Option>
 				<Option>
-					B-) 9
+					B-) Sağlıklı sosyalleşememiş bireyin edimidir.
+
 				</Option>
 				<Option>
-					C-) 36
+					C-) Suç kavramına göre çok daha kapsayıcıdır
 				</Option>
 				<Option>
-					D-) 64
+					D-) Yetersiz toplumsal denetimin bir sonucudur.
 				</Option>
 				<Option>
-					E-) 81
+					E-) Suç oranının yüksek olduğu gruplarda işlevsizdir.
 				</Option>
 				<CorrectIndex>2</CorrectIndex>
 			</Question>
 			<Question>
 				<Text>
-					Bir paraşütle atlama kursundaki egitmen, kursiyerlerine
-					aşağıdaki açıklamayı yapmıştır:
-					“Yerden 800 metre yükseklikteki bir uçaktan atlarken
-					yere güvenli bir şekilde inebilmeniz için uçaktan
-					atladıktan 400 ila 500 metre sonra paraşütünüzü
-					açmanız gerekmektedir.”
+					Teizm; tek bir Tanrı’nın varlığını, şuurlu ve iradeli bir varlık olduğunu kabul eder. Tanrı’nın âlemi var ettiğine,
+					vahiy göndererek insanlarla iletişime geçtiğine, âleme ve insana daima müdahil olduğuna vurgu yapar. Başka
+					bir ifadeyle teizm, Tanrı’nın mutlak kudret sahibi olduğuna, her şeyi bildiğine, gördüğüne, duyduğuna ve
+					takdir ettiğine inanır. Nitekim teist düşünceye göre Tanrı, değerin kaynağı ve koruyucusudur; insanın
+					kendisine ibadet ve itaat etmesini ister. Bunlar, teizmi diğer Tanrı anlayışlarından ayıran temel özelliklerdir.
 
-					Buna göre, yere güvenli bir şekilde inebilmek için
-					paraşüt açıldığı anda yerden yüksekliğin alabileceği
-					değerleri ifade eden eşitsizlik aşağıdakilerden
-					hangisidir?
+					Bu parçadan hareketle teizmle ilgili aşağıdakilerden
+					hangisi söylenemez?
+
+				</Text>
+				<Option>A-) Tanrı yarattıklarını yeniden diriltip hesaba çekecektir.</Option>
+				<Option>B-) Tanrı’nın âlemle ilişkisi her an devam etmektedir.</Option>
+				<Option>C-) Tanrı, insanlara ne yapmaları gerektiğini bildirir.</Option>
+				<Option>
+					D-) Tanrı’nın yaratma sıfatını kabul etmektedir.
+				</Option>
+				<Option>E-) Tanrı, üstün niteliklere sahiptir.</Option>
+				<CorrectIndex>0</CorrectIndex>
+			</Question>
+			<Question>
+				<Text>
+					J. L. Austin, dilin görevleriyle ilgili görüşlerini Söz
+					Edimleri Teorisi’nde açıklar. Bu teoriye göre bazen bir
+					şey söylemek, aynı zamanda bir şey yapmaktır.
+					Örneğin, nikah salonunda gelin veya damat “Evet, bu
+					kişiyi eş olarak kabul ediyorum.” dediğinde hem bir şey
+					söylüyor hem de evlenme işlemini gerçekleştiriyordur.
+					
+					Bu parçada dilin görevlerinden hangileri
+					vurgulanmaktadır?
+
 				</Text>
 				<Option>
-					A-) |x - 350| &#8804; 50
+					A-) Bildirme ve Eylemsel
 				</Option>
 				<Option>
-					B-) |x - 300| &#8804; 100
+					B-) Belirtme ve Törensel
 				</Option>
 				<Option>
-					C-) |x - 250| &#8804; 150
+					C-) Bildirme ve Yaptırma
 				</Option>
 				<Option>
-					D-) |x - 200| &#8804; 200
+					D-) Belirtme ve Eylemsel
+
 				</Option>
 				<Option>
-					E-) |x - 150| &#8804; 250
+					E-) Eylemsel ve Törensel
+
 				</Option>
 				<CorrectIndex>0</CorrectIndex>
 			</Question>
 			<Question>
 				<Text>
-					Bir veri grubundaki sayılar küçükten büyüğe doğru sıralandığında gruptaki terim sayısı tek ise ortadaki
-					sayıya, çift ise ortadaki iki sayının aritmetik ortalamasına o veri grubunun medyanı (ortanca) denir.
-					9 kişilik bir voleybol takımının oyuncularının yaşları ve
-					boyları, ilk bileşen yaşlarını ikinci bileşen ise boylarını
-					göstermek üzere boylarına göre sıralı veri grubu
-					(18; 1,76), (17; 1,79), (18; 1,82), (19; 1,84), (20; 1,84),
-					(21; 1,88), (17; 1,90), (20; 1,92), (19; 1,96) olarak verilmiştir.
-
-					Bu 9 kişilik takımdan bir oyuncu ayrılmış ancak kalan
-					oyuncuların hem yaşlarının hem de boylarının medyanı değişmemiştir.
-
-					Buna göre, bu takımdan ayrılan oyuncunun yaşı ve
-					boyu aşağıdakilerin hangisinde doğru olarak verilmiştir?
-				</Text>
-				<Option>A-) (17; 1,79)</Option>
-				<Option>B-) (17; 1,90)</Option>
-				<Option>C-) (19; 1,84)</Option>
-				<Option>D-) (19; 1,96)</Option>
-				<Option>E-) (21; 1,88)</Option>
-				<CorrectIndex>1</CorrectIndex>
-			</Question>
-			<Question>
-				<Text>
-					AAB ve ABA doğal sayıları 9'a tam bölünen
-					üç basamaklı birer sayı olmak üzere, bu sayılardan
-					biri 5’e diğeri ise 12’ye tam bölünmektedir.
-
-					Buna göre,A + B toplamı kaçtır?
-
+					Aşağıdaki akıl yürütmelerden hangisi geçerli bir
+					kıyas örneğidir?
 				</Text>
 				<Option>
-					A-) 7
+					A-) Bazı insanlar mutludur. Bazı insanlar da neşelidir.
+					O hâlde bazı insanlar hem neşeli hem mutludur.
 				</Option>
 				<Option>
-					B-) 8
+					B-) Bazı meyveler tatlıdır. Bazı meyveler ekşidir. O hâlde
+					hiçbir meyve acı değildir.
 				</Option>
 				<Option>
-					C-) 9
-				</Option>
-				<Option>
-					D-) 10
-				</Option>
-				<Option>
-					E-) 11
-				</Option>
-				<CorrectIndex>0</CorrectIndex>
-			</Question>
-			<Question>
-				<Text>
-					Kare dik prizma içinde bir tahtanın üç yüzeyi
-					beyaza, diğer üç yüzeyi ise kırmızıya boyanmıştır.
-					Beyaza boyanan yüzeylerin alanları toplamı
-					76 birimkare, kırmızıya boyanan yüzeylerin alanları
-					toplamı ise 12 birimkaredir.
+					C-) Hiçbir insan hayvan değildir. Hiçbir hayvan bitki
+					değildir. O hâlde hiçbir insan bitki değildir.
 
-					Buna göre, bu tahtanın hacmi kaç birimküptür?
-				</Text>
-				<Option>A-) 18</Option>
-				<Option>
-					B-) 24
 				</Option>
 				<Option>
-					C-) 27
+					D-) Mantık dersi alanlar nitelikli düşünen insanlardır. Ali
+					nitelikli düşünen bir insandır. O hâlde Ali, mantık dersi
+					alandır.
 				</Option>
 				<Option>
-					D-) 32
+					E-) Bazı çiçekler papatyadır. Bütün papatyalar beyazdır.
+					O hâlde bazı çiçekler beyazdır.
 				</Option>
-				<Option>
-					E-) 36
-				</Option>
-				<CorrectIndex>1</CorrectIndex>
+				<CorrectIndex>3</CorrectIndex>
 			</Question>
 		</Question>
 	</Question>

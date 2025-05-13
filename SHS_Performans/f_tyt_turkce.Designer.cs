@@ -81,6 +81,7 @@
             // 
             rbOption1.BackColor = Color.Transparent;
             rbOption1.Font = new Font("Arial Rounded MT Bold", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            rbOption1.ForeColor = Color.Black;
             rbOption1.Location = new Point(44, 323);
             rbOption1.Name = "rbOption1";
             rbOption1.Size = new Size(941, 95);
@@ -165,7 +166,7 @@
             Controls.Add(lblSoru);
             Controls.Add(pictureBox1);
             Name = "f_tyt_turkce";
-            Text = "f_tyt_turkce";
+            Text = "Temel Yeterlilik Testi Türkçe Sınavı";
             Load += f_tyt_turkce_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

@@ -3,531 +3,482 @@
 <Questions>
 	<Question>
 		<Text>
-			Bozuk bir bilgisayar klavyesinde bulunan T ve Y
-			tuşlarına basıldığında bu harflerin ekranda görünme
-			olasılığı ile ilgili aşağıdakiler bilinmektedir.
-
-			 Klavyede T tuşuna basıldığında ekranda T harfinin
-			görünme olasılığı 3/4, Y harfinin görünme
-			olasılığı 1/4’tür.
-
-			 Klavyede Y tuşuna basıldığında ekranda Y harfinin
-			görünme olasılığı 2/3, T harfinin görünme
-			olasılığı 1/3’tür.
-
-			Buna göre, klavyede sırasıyla T, T ve Y tuşlarına
-			basıldığında ekranda TYT görünme olasılığı kaçtır?
+			a bir rakam olmak üzere 25! sayısının 23! - a
+			sayısına bölümünden kalan 60(üssü 2) olduğuna göre
+			a kaçtır?
 		</Text>
 		<Option>
-			A-) 1/12
+			A-) 2
 		</Option>
 		<Option>
-			B-) 1/16
+			B-) 3
 		</Option>
 		<Option>
-			C-) 1/24
+			C-) 4
 		</Option>
 		<Option>
-			D-) 1/32
+			D-) 5
 		</Option>
 		<Option>
-			E-) 1/48
+			E-) 6
 		</Option>
+		<CorrectIndex>4</CorrectIndex>
+	</Question>
+	<Question>
+		<Text>
+			x, y ve z birbirinden farklı birer asal sayı olmak üzere
+			
+			X + Y*Z = 21
+			
+			eşitliği veriliyor.
+			
+			Buna göre x + y + z toplamı kaçtır?
+		</Text>
+		<Option>A-) 12</Option>
+		<Option>B-) 14</Option>
+		<Option>C-) 16</Option>
+		<Option>D-) 18</Option>
+		<Option>E-) 20</Option>
 		<CorrectIndex>1</CorrectIndex>
 	</Question>
 	<Question>
 		<Text>
-			Bisiklet almayı çok isteyen Bilge’ye babası;
-
-			“Sana söz veriyorum, kumbaranda en az 500 TL
-			olduğu ilk gün o bisikleti almaya gideceğiz.”
-			demiştir.
-
-			Bunun üzerine Bilge, o günden başlayarak hiç
-			aksatmadan başlangıçta boş olan kumbarasına hafta içi
-			her gün 20 TL, hafta sonu her gün ise 25 TL atmaya
-			başlamıştır. Babası sözünü tutmuş ve bir cumartesi
-			günü Bilge’yi o bisikleti almaya götürmüştür.
-
-			Buna göre, babası Bilge’ye bu sözü hangi gün
-			söylemiştir?
+			Melisa; her birinin yarıçapı farklı bir doğal sayı olacak
+			biçimde yarıçapları 1cm, 2cm, 3cm, ... , 10cm olan
+			daire biçimindeki 10 kartonu bir masanın üzerine
+			merkezleri çakışacak şekilde üst üste dizecektir.
+			
+			Melisa bu dizilimi, üstten bakıldığında dairelerden
+			yalnızca biri hiç görünmeyecek biçimde kaç farklı
+			şekilde yapabilir?
 		</Text>
-		<Option>A-) Pazartesi</Option>
-		<Option>B-) Salı</Option>
-		<Option>C-) Çarşamba</Option>
-		<Option>D-) Perşembe</Option>
-		<Option>E-) Cuma</Option>
-		<CorrectIndex>3</CorrectIndex>
+		<Option>
+			A-) 36
+		</Option>
+		<Option>
+			B-) 40
+		</Option>
+		<Option>
+			C-) 45
+		</Option>
+		<Option>
+			D-) 48
+		</Option>
+		<Option>
+			E-) 54
+		</Option>
+		<CorrectIndex>2</CorrectIndex>
 	</Question>
 	<Question>
 		<Text>
-			Tarık bir bölgede bulunan tüm müzeleri listelemiştir. Bu
-			listedeki müzelerden gittiklerinin gitmediklerine oranı
-			1/2 iken daha önce gitmediği 12 müzeyi tatilde ziyaret
-			etmiş ve sonrasında bu oran 2/3 olmuştur.
+			m ve n pozitif tam sayılar olmak üzere,
 
-			Buna göre, Tarık'ın listesinde bulunan müze sayısı
-			kaçtır?
+			EBOB(m,m) + EKOK(m,n) = 289
+			m + n = 289
+
+			olduğu biliniyor
+
+			Buna göre, M + N toplamı kaçtır?
 		</Text>
 		<Option>
-			A-) 90
+			A-) 41
 		</Option>
 		<Option>
-			B-) 120
+			B-) 43
 		</Option>
 		<Option>
-			C-) 150
+			C-) 45
 		</Option>
 		<Option>
-			D-) 180
+			D-) 47
 		</Option>
 		<Option>
-			E-) 210
-		</Option>
-		<CorrectIndex>3</CorrectIndex>
-	</Question>
-	<Question>
-		<Text>
-			Yalnızca fındık ve şekerden oluşan bir fındık ezmesi
-			tarifinde fındık ve şeker belirli bir oranda
-			karıştırılmaktadır.
-
-			Bu tarife göre; 21 kilogram şeker ve 42 kilogram
-			fındığın bulunduğu birinci imalathanede fındık ezmesi
-			üretildiğinde yalnızca 9 kilogram şekerin arttığı,
-			16 kilogram şeker ve 64 kilogram fındığın bulunduğu
-			ikinci imalathanede fındık ezmesi üretildiğinde yalnızca
-			belirli miktarda fındığın arttığı görülmüştür.
-
-			Buna göre, ikinci imalathanede artan fındık miktarı
-			kaç kilogramdır?
-		</Text>
-		<Option>
-			A-) 6
-		</Option>
-		<Option>
-			B-) 8
-		</Option>
-		<Option>
-			C-) 9
-		</Option>
-		<Option>
-			D-) 10
-		</Option>
-		<Option>
-			E-) 12
-		</Option>
-		<CorrectIndex>1</CorrectIndex>
-	</Question>
-	<Question>
-		<Text>
-			Bir dijital saatin ilk iki hanesi saat kısmını, diğer iki
-			hanesi dakika kısmını göstermektedir. Örneğin, saat
-			11.05 iken dijital saatin saat hanesinde 11, dakika
-			hanesinde 05 görünmektedir.
-
-			Melis, katıldığı bir toplantı bittiğinde duvardaki
-			dijital saate bakmış ve bu saatin saat hanesinde
-			15 sayısını görmüştür. Arkadaşı Melis’e, toplantı
-			boyunca saat hanesinde 15 sayısının görüldüğü
-			sürenin, toplantı süresinin % 25’i olduğunu söylemiştir.
-
-			Toplantı 108 dakika sürdüğüne göre, toplantının
-			başlangıç saati kaçtır?
-
-		</Text>
-		<Option>
-			A-) 13.39
-		</Option>
-		<Option>
-			B-) 13.42
-		</Option>
-		<Option>
-			C-) 13.45
-		</Option>
-		<Option>
-			D-) 13.48
-		</Option>
-		<Option>
-			E-) 13.51
+			E-) 49
 		</Option>
 		<CorrectIndex>0</CorrectIndex>
 	</Question>
 	<Question>
 		<Text>
-			Emre her sayfasında eşit sayıda soru bulunan 6 sayfalık
-			bir anketteki tüm soruları, anketin 1. sayfasından
-			başlayarak sırasıyla cevaplamıştır. Emre, 2. sayfada
-			3 soru cevapladığında anketin % 20’sini tamamlamıştır.
+			x(üssü 2) - 2x + c = 0
 
-			Buna göre, Emre 5. sayfada 3 soru cevapladığında
-			anketin yüzde kaçını tamamlamış olur?
+			denkleminin diskriminantı aynı zamanda bu
+			denklemin bir kökü olduğuna göre, c gerçel
+			sayısının alabileceği değerlerin çarpımı kaçtır?
+			
+
 		</Text>
-		<Option>A-) 81</Option>
-		<Option>B-) 80</Option>
-		<Option>C-) 75 </Option>
-		<Option>D-) 72</Option>
-		<Option>E-) 70</Option>
-		<CorrectIndex>4</CorrectIndex>
+		<Option>
+			A-) 1
+		</Option>
+		<Option>
+			B-) 2
+		</Option>
+		<Option>
+			C-) 4
+		</Option>
+		<Option>
+			D-) 1/2
+		</Option>
+		<Option>
+			E-) 1/4
+		</Option>
+		<CorrectIndex>3</CorrectIndex>
 	</Question>
 	<Question>
 		<Text>
-			Bir arkadaşı Ayşe'ye oturdukları evin ne zaman
-			yapıldığını sormuştur. Ayşe de
+			a ve b birer rakam olmak üzere,
 
-			 evin 1990 yılındaki yaşının kendisinin bugünkü
-			yaşına,
+			A = {4,5,6,7,8,9}
+			B = {1,4,5,7}
+			C = {a,b}
+			kümeleri veriliyor
+			(A U C) * (B U C)
 
-			 evin 2000 yılındaki yaşının eşinin bugünkü yaşına,
-
-			 evin 2020 yılındaki yaşının kendisi ile eşinin
-			bugünkü yaşları toplamına eşit olduğunu soylemiştir.
-
-			Buna göre, Ayşe’nin oturduğu ev hangi yılda yapılmıştır?
+			kartezyen çarpımının eleman sayısı 28 olduğuna
+			göre,a + b toplamı kaçtır?
 		</Text>
-		<Option>
-			A-) 1960
-		</Option>
-		<Option>
-			B-) 1965
-		</Option>
-		<Option>
-			C-) 1970
-		</Option>
-		<Option>
-			D-) 1975.
-		</Option>
-		<Option>
-			E-) 1980
-		</Option>
-		<CorrectIndex>2</CorrectIndex>
+		<Option>A-) 5</Option>
+		<Option>B-) 6</Option>
+		<Option>C-) 8 </Option>
+		<Option>D-) 9</Option>
+		<Option>E-) 11</Option>
+		<CorrectIndex>0</CorrectIndex>
 	</Question>
 	<Question>
 		<Text>
-			Ali bahçesine her hafta yalnızca pazar günü
-			gitmektedir. Ali, bahçesine diktiği 40 cm uzunluğundaki
-			bir ağacı, birkaç hafta sonra budayarak boyunu 25 cm
-			kısaltmıştır.
+			Gerçel katsayılı ve dördüncü dereceden olan
+			bir P(x) polinomu, her x gerçel sayısı için
 
-			Budanmadan önce her hafta 2 cm uzayan bu ağacın
-			boyu, budandıktan sonra her hafta 3 cm uzamaya
-			başlamıştır. Ali, bu ağacı diktikten 11 hafta sonraki
-			boyunun 40 cm olduğunu görmüştür.
+			P(x) > x
+			eşitsizliği sağlanıyor
+			P(1) = 1
+			P(2) = 4
+			P(3) = 3
 
-			Buna göre, ağacın budandıktan hemen sonraki boyu
-			kaç cm’dir?
+			olduğuna göre, P(4) kaçtır?
 		</Text>
-		<Option>A-) 27</Option>
-		<Option>B-) 28</Option>
-		<Option>C-) 31 </Option>
-		<Option>D-) 34</Option>
-		<Option>E-) 36</Option>
+		<Option>
+			A-) 20
+		</Option>
+		<Option>
+			B-) 22
+		</Option>
+		<Option>
+			C-) 24
+		</Option>
+		<Option>
+			D-) 26
+		</Option>
+		<Option>
+			E-) 28
+		</Option>
+		<CorrectIndex>1</CorrectIndex>
+	</Question>
+	<Question>
+		<Text>
+			Bir hesap makinesinde işlem yapıldığında makine;
+			işlemin sonucu tam sayı ise o sayıyı, ondalıklı sayı ise
+			bu sayının tam kısmı ile birlikte virgülden sonraki ilk iki
+			basamağını görüntülemektedir.
+			Nevzat, bu hesap makinesine ln(9,6) işlemini
+			yaptırdığında ekranda 2,26 değerini, ln(0,3) işlemini
+			yaptırdığında ise ekranda –1,20 değerini görüyor
+
+			Nevzat, bu hesap makinesine ln(0,5) işlemini
+			yaptırdığında ekranda hangi değeri görür?
+
+		</Text>
+		<Option>A-) –0,61</Option>
+		<Option>B-) –0,65</Option>
+		<Option>C-) –0,69 </Option>
+		<Option>D-) –0,73 </Option>
+		<Option>E-) –0,77</Option>
 		<CorrectIndex>2</CorrectIndex>
 		<Question>
 			<Text>
-				Bir veri grubundaki sayılar küçükten büyüğe doğru
-				sıralandığında gruptaki terim sayısı tek ise ortadaki
-				sayıya, çift ise ortadaki iki sayının aritmetik ortalamasına
-				o veri grubunun ortancası (medyan) denir.
-
-				Sayılardan oluşan bir veri grubunda, verilerin ortanca
-				ile olan farklarının mutlak değerlerinin toplamına
-				ortancanın temsil gücü denir.
-
-				Küçükten büyüğe doğru sıralanmış
-				24, 24, 28, 32, 32, a
-
-				veri grubunda ortanca ile ortancanın temsil gücü birbirine eşittir.
-
-				Buna göre, a kaçtır?
+				100 kişilik bir proje ekibinin elinde belirli sayıda proje
+				vardır ve ekipteki herkes bu projelerin bir kısmında
+				görevlendirilecektir. Ekipteki herkesin eşit sayıda
+				projede görev alması ancak herhangi iki kişinin görev
+				aldığı projelerin tamamen aynı olmaması istenmektedir.
+				Bu durum, herkes 3 projede görev alırsa
+				sağlanamamakta fakat herkes 4 projede görev alırsa sağlanabilmektedir.
+				
+				Buna göre, ekibin elindeki proje sayısı kaçtır?
 			</Text>
-			<Option>A-) 34</Option>
-			<Option>B-) 36</Option>
-			<Option>C-) 38 </Option>
-			<Option>D-) 40</Option>
-			<Option>E-) 42</Option>
-			<CorrectIndex>4</CorrectIndex>
+			<Option>A-) 6</Option>
+			<Option>B-) 7</Option>
+			<Option>C-) 8 </Option>
+			<Option>D-) 9</Option>
+			<Option>E-) 10</Option>
+			<CorrectIndex>3</CorrectIndex>
 			<Question>
 				<Text>
-					Bir videonun belirli bir kısmına ait oynatma hızı; o
-					kısmın normal süresinin, izlendiğinde geçecek süreye oranı olarak tanımlanmaktadır.
+					A = {1,2,3,4,5,6,7} kümesindeki rakamlardan
+					birbirinden farklı rastgele iki tanesi seçiliyor.
+					Seçilen rakamların çarpımının çift sayı olduğu
+					bilindiğine göre, bu rakamların toplamının da
+					çift sayı olma olasılığı kaçtır?
 
-					Örneğin; bir filmin normal süresi 100 dakika olan bir
-					kısmı, oynatma hızı 2 olarak izlendiğinde 50 dakika sürmektedir.
-
-					Cansu normal süresi 135 dakika olan bir filmi saat
-					12.00’de 1,25 oynatma hızı ile izlemeye başlamış ve bir
-					süre sonra 20 dakikalık yemek molası vermiştir. Yemek
-					molasından sonra filmi kaldığı yerden 1,5 oynatma hızı
-					ile izleyerek saat 14.00’te bitirmiştir.
-
-					Buna göre, Cansu yemek molasına saat kaçta başlamıştır?
 				</Text>
 				<Option>
-					A-) 12.40
+					A-) 1/2
 				</Option>
 				<Option>
-					B-) 12.50
+					B-) 1/3
 				</Option>
 				<Option>
-					C-) 13.00
+					C-) 1/4
 				</Option>
 				<Option>
-					D-) 13.10
+					D-) 1/5
 				</Option>
 				<Option>
-					E-) 13.20
+					E-) 1/6
 				</Option>
-				<CorrectIndex>2</CorrectIndex>
+				<CorrectIndex>3</CorrectIndex>
 			</Question>
 			<Question>
 				<Text>
-					Rakamları birbirinden farklı üç basamaklı bir ABC
-					doğal sayısının rakamları küçükten büyüğe doğru
-					sıralandığında ardışık üç sayı elde ediliyorsa ABC
-					sayısına sıralı sayı denir. Örneğin, 132 sayısı bir sıralı
-					sayıdır.
-
-					Üç basamaklı A7B ve 3BC doğal sayıları birer sıralı
-					sayıdır.
-
-					Buna göre, A + B + C toplamı kaçtır?
+					Dik koordinat düzleminde bir köşesi orijinde olan
+					bir üçgenin, ağırlık merkezi (0,6) noktası, diklik merkezi
+					ise (0,8) noktasıdır.
+					Buna göre, bu üçgenin alanı kaç birimkaredir?
 				</Text>
-				<Option>A-) 12 </Option>
-				<Option>B-) 13</Option>
-				<Option>C-) 14</Option>
-				<Option>D-) 15 </Option>
-				<Option>E-) 16 </Option>
-				<CorrectIndex>4</CorrectIndex>
+				<Option>A-) 18 </Option>
+				<Option>B-) 21</Option>
+				<Option>C-) 24</Option>
+				<Option>D-) 27 </Option>
+				<Option>E-) 30 </Option>
+				<CorrectIndex>3</CorrectIndex>
 			</Question>
 			<Question>
 				<Text>
-					AB ve BA iki basamaklı doğal sayılar olmak üzere,
-					AB*BA
-					çarpımı 30 ile tam bölünmektedir.
+					Dik koordinat düzleminde Y = X + 2 doğrusu üzerinde
+					bulunan A ve B noktaları arasındaki uzaklık 3 birimdir. |AB|
+					doğru parçasının orta noktasının koordinatları (-1,1)
+					olduğuna göre, A ve B noktaları analitik
+					düzlemin hangi bölgelerindedir?
 
-					Buna göre, A + B toplamı kaçtır?
 				</Text>
 				<Option>
-					A-) 8
+					A-) Her ikisi de II. bölgede
 				</Option>
 				<Option>
-					B-) 9
+					B-) Her ikisi de III. bölgede
+
 				</Option>
 				<Option>
-					C-) 12
+					C-) Biri I. bölgede, diğeri II. bölgede
+
 				</Option>
 				<Option>
-					D-) 15
+					D-) Biri I. bölgede, diğeri III. bölgede
+
 				</Option>
 				<Option>
-					E-) 16
+					E-) Biri II. bölgede, diğeri III. bölgede
+				</Option>
+				<CorrectIndex>3</CorrectIndex>
+			</Question>
+			<Question>
+				<Text>
+					Dik koordinat düzleminde,A(3,4) noktasında dik
+					kesişen iki doğrunun eğimleri toplamı 3/2 olarak
+					hesaplanıyor.
+					
+					Bu iki doğrunun x-eksenini kestiği noktalar B ve C
+					noktaları olduğuna göre, ABC üçgeninin alanı kaç
+					birimkaredir?
+
+				</Text>
+				<Option>
+					A-) 24
+				</Option>
+				<Option>
+					B-) 20
+				</Option>
+				<Option>
+					C-) 16
+				</Option>
+				<Option>
+					D-) 12
+				</Option>
+				<Option>
+					E-) 8
 				</Option>
 				<CorrectIndex>1</CorrectIndex>
 			</Question>
 			<Question>
 				<Text>
-					A, B ve C birbirinden farklı rakamlar, AB ve BC iki
-					basamaklı ardışık tek doğal sayılar olmak üzere,
-
-					AB &lt; BC
-
-					eşitsizliği veriliyor.
-
-					Buna göre, A + B + C toplamı kaçtır?
+					Ayşe ve Ferhat, pizza satın almak için bir dükkâna
+					giriyor. Bu dükkânda satılan 13 daire dilimine ayrılmış
+					daire şeklindeki bir bütün pizzadan; Ayşe’nin satın aldığı
+					2 dilim birbiriyle özdeşken, Ferhat’ın satın aldığı 11 dilim
+					de birbiriyle özdeştir.
+					Daha sonra bu dilimlerden üç tanesini birleştirerek yarım
+					daire şeklinde bir pizza elde ediyorlar.
+					
+					Buna göre, büyük dilimlerden birinin merkez
+					açısının ölçüsü kaç derecedir?
 				</Text>
-				<Option>
-					A-) 12
-				</Option>
-				<Option>
-					B-) 13
-				</Option>
-				<Option>
-					C-) 17
-				</Option>
-				<Option>
-					D-) 18
-				</Option>
-				<Option>
-					E-) 20
-				</Option>
-				<CorrectIndex>4</CorrectIndex>
-			</Question>
-			<Question>
-				<Text>
-					Bir yemek firmasında satılan A ve B ürünlerinin uygun
-					saklama sıcaklıkları santigrat derece (C) türünden
-					sırasıyla SA ve SB olmak üzere bu değerler;
-
-					|SA + 1| &lt; 5
-					|SB - 13| &lt; 7
-
-					eşitsizliklerini sağlamaktadır. Uygun saklama sıcaklığı
-					sağlanmadığında ürünler bozulmaktadır.
-
-					Buna göre, aşağıda santigrat derece (C) türünden
-					verilen sıcaklıklardan hangisinde bu iki ürün de bozulur?
-				</Text>
-				<Option>A-) -1</Option>
-				<Option>B-) 0</Option>
-				<Option>C-) 3</Option>
-				<Option>D-) 5</Option>
-				<Option>E-) 7 </Option>
-				<CorrectIndex>4</CorrectIndex>
-			</Question>
-			<Question>
-				<Text>
-					a bir tam sayı olmak üzere,
-
-					B = {2,4,8,a}
-
-					kümesinin her bir elemanı 2 ile çarpılarak dört elemanlı
-					yeni bir küme elde ediliyor.
-
-					Bu iki kümenin kesişim kümesi 3 elemanlı olduğuna
-					göre, a’nın alabileceği değerler toplamı kaçtır?
-				</Text>
-				<Option>A-) 12 </Option>
-				<Option>B-) 15 </Option>
-				<Option>C-) 17 </Option>
-				<Option>D-) 20</Option>
-				<Option>E-) 21</Option>
-				<CorrectIndex>2</CorrectIndex>
-			</Question>
-			<Question>
-				<Text>
-					Mine, tahtaya yazdığı aşağıdaki beş sayıdan her birini
-					üslü sayı olarak ifade ediyor.
-
-					8 - 9 - 36 - 64 - 81
-
-					Mine, bu sayılardan birini tahtadan sildikten sonra kalan
-					dört sayıdan her birinin, ya tabanının ya da kuvvetinin
-					3 sayısına eşit olduğunu görüyor.
-
-					Buna göre, Mine’nin tahtadan sildiği sayı kaçtır?
-				</Text>
-				<Option>
-					A-) 8
-				</Option>
-				<Option>
-					B-) 9
-				</Option>
-				<Option>
-					C-) 36
-				</Option>
-				<Option>
-					D-) 64
-				</Option>
-				<Option>
-					E-) 81
-				</Option>
-				<CorrectIndex>2</CorrectIndex>
-			</Question>
-			<Question>
-				<Text>
-					Bir paraşütle atlama kursundaki egitmen, kursiyerlerine
-					aşağıdaki açıklamayı yapmıştır:
-					“Yerden 800 metre yükseklikteki bir uçaktan atlarken
-					yere güvenli bir şekilde inebilmeniz için uçaktan
-					atladıktan 400 ila 500 metre sonra paraşütünüzü
-					açmanız gerekmektedir.”
-
-					Buna göre, yere güvenli bir şekilde inebilmek için
-					paraşüt açıldığı anda yerden yüksekliğin alabileceği
-					değerleri ifade eden eşitsizlik aşağıdakilerden
-					hangisidir?
-				</Text>
-				<Option>
-					A-) |x - 350| &#8804; 50
-				</Option>
-				<Option>
-					B-) |x - 300| &#8804; 100
-				</Option>
-				<Option>
-					C-) |x - 250| &#8804; 150
-				</Option>
-				<Option>
-					D-) |x - 200| &#8804; 200
-				</Option>
-				<Option>
-					E-) |x - 150| &#8804; 250
-				</Option>
-				<CorrectIndex>0</CorrectIndex>
-			</Question>
-			<Question>
-				<Text>
-					Bir veri grubundaki sayılar küçükten büyüğe doğru sıralandığında gruptaki terim sayısı tek ise ortadaki
-					sayıya, çift ise ortadaki iki sayının aritmetik ortalamasına o veri grubunun medyanı (ortanca) denir.
-					9 kişilik bir voleybol takımının oyuncularının yaşları ve
-					boyları, ilk bileşen yaşlarını ikinci bileşen ise boylarını
-					göstermek üzere boylarına göre sıralı veri grubu
-					(18; 1,76), (17; 1,79), (18; 1,82), (19; 1,84), (20; 1,84),
-					(21; 1,88), (17; 1,90), (20; 1,92), (19; 1,96) olarak verilmiştir.
-
-					Bu 9 kişilik takımdan bir oyuncu ayrılmış ancak kalan
-					oyuncuların hem yaşlarının hem de boylarının medyanı değişmemiştir.
-
-					Buna göre, bu takımdan ayrılan oyuncunun yaşı ve
-					boyu aşağıdakilerin hangisinde doğru olarak verilmiştir?
-				</Text>
-				<Option>A-) (17; 1,79)</Option>
-				<Option>B-) (17; 1,90)</Option>
-				<Option>C-) (19; 1,84)</Option>
-				<Option>D-) (19; 1,96)</Option>
-				<Option>E-) (21; 1,88)</Option>
+				<Option>A-) 90</Option>
+				<Option>B-) 81</Option>
+				<Option>C-) 75</Option>
+				<Option>D-) 71</Option>
+				<Option>E-) 60</Option>
 				<CorrectIndex>1</CorrectIndex>
 			</Question>
 			<Question>
 				<Text>
-					AAB ve ABA doğal sayıları 9'a tam bölünen
-					üç basamaklı birer sayı olmak üzere, bu sayılardan
-					biri 5’e diğeri ise 12’ye tam bölünmektedir.
-
-					Buna göre,A + B toplamı kaçtır?
-
+					Dik koordinat düzleminde (4,4) noktasının 
+					(1,0 )noktasından geçen bir doğruya göre simetriği
+					olan nokta (a,0) olduğuna göre, a sayısının
+					alabileceği değerlerin çarpımı kaçtır?
 				</Text>
-				<Option>
-					A-) 7
-				</Option>
-				<Option>
-					B-) 8
-				</Option>
-				<Option>
-					C-) 9
-				</Option>
-				<Option>
-					D-) 10
-				</Option>
-				<Option>
-					E-) 11
-				</Option>
+				<Option>A-) -24</Option>
+				<Option>B-) -16</Option>
+				<Option>C-) -8</Option>
+				<Option>D-) 16</Option>
+				<Option>E-) 32</Option>
 				<CorrectIndex>0</CorrectIndex>
 			</Question>
 			<Question>
 				<Text>
-					Kare dik prizma içinde bir tahtanın üç yüzeyi
-					beyaza, diğer üç yüzeyi ise kırmızıya boyanmıştır.
-					Beyaza boyanan yüzeylerin alanları toplamı
-					76 birimkare, kırmızıya boyanan yüzeylerin alanları
-					toplamı ise 12 birimkaredir.
-
-					Buna göre, bu tahtanın hacmi kaç birimküptür?
+					Bir ABC üçgeninin AB kenarının uzunluğu, BC kenarının
+					uzunluğunun yarısına eşittir.
+					
+					Bu üçgenin yüksekliklerinden ikisinin uzunlukları
+					4 birim ve 10 birim olduğuna göre diğer
+					yüksekliğinin uzunluğu
+					
+					I. 2 birim,
+					II. 5 birim,
+					III. 8 birim
+					değerlerinden hangileri olabilir?
 				</Text>
-				<Option>A-) 18</Option>
 				<Option>
-					B-) 24
+					A-) Yalnız I
 				</Option>
 				<Option>
-					C-) 27
+					B-) Yalnız II
+				</Option>
+				<Option>
+					C-) Yalnız III
+
+				</Option>
+				<Option>
+					D-) I ve II
+				</Option>
+				<Option>
+					E-) II ve III
+
+				</Option>
+				<CorrectIndex>3</CorrectIndex>
+			</Question>
+			<Question>
+				<Text>
+					a, b ve c asal sayılar olmak üzere,
+
+					a(a+b) = c(c-b) = 143
+
+					eşitlikleri veriliyor
+					Buna göre a + b + c toplamı kaçtır?
+				</Text>
+				<Option>
+					A-) 22
+				</Option>
+				<Option>
+					B-) 26
+				</Option>
+				<Option>
+					C-) 30
 				</Option>
 				<Option>
 					D-) 32
 				</Option>
 				<Option>
-					E-) 36
+					E-) 38
 				</Option>
 				<CorrectIndex>1</CorrectIndex>
+			</Question>
+			<Question>
+				<Text>
+					a, b ve c gerçel sayıları için
+					
+					a - b &lt; 0 &lt; c &lt; c - b
+					eşitsizliği veriliyor
+
+					I. a*b*c > 0
+					II. (a + c)*b > 0
+					III. b - a + c > 0
+
+					ifadelerinden hangileri her zaman doğrudur?
+				</Text>
+				<Option>A-) Yalnız I </Option>
+				<Option>B-) Yalnız II </Option>
+				<Option>C-) I ve II</Option>
+				<Option>D-) I ve III )</Option>
+				<Option>E-) II ve III </Option>
+				<CorrectIndex>3</CorrectIndex>
+			</Question>
+			<Question>
+				<Text>
+					Her elemanı bir pozitif tam sayı olan bir kümenin
+					eleman sayısı, bu kümenin en küçük elemanının
+					değerinden bir fazla ise bu kümeye geniş küme denir.
+
+					A, B ve C geniş kümeler olmak üzere,
+					A U B U C = {1,2,3,4,5,6,7,8,9}
+					A n B = {3}
+					1 Elemanıdır A
+					6 Elemanıdır B
+
+					Buna göre, C kümesi aşağıdakilerden hangisidir?
+
+				</Text>
+				<Option>
+					A-) {1,2}
+				</Option>
+				<Option>
+					B-) {3,4,8,9}
+				</Option>
+				<Option>
+					C-) {3,5,7,8}
+				</Option>
+				<Option>
+					D-) {4,5,6,7,8}
+				</Option>
+				<Option>
+					E-) {4,5,7,8,9}
+				</Option>
+				<CorrectIndex>4</CorrectIndex>
+			</Question>
+			<Question>
+				<Text>
+					5 Ekim 2020 Pazartesi ile 18 Ekim 2020 Pazar günleri
+					arasındaki günler ve bu iki gün de dahil olmak üzere,
+					bu 14 gün içinden iki farklı günde birer toplantı
+					yapılacaktır.
+					
+					Toplantılardan en az biri hafta içi olacak biçimde bir
+					düzenleme yapılmak istendiğine göre, bu dü zenleme
+					kaç farklı şekilde yapılabilir?
+				</Text>
+				<Option>A-) 70</Option>
+				<Option>
+					B-) 75
+				</Option>
+				<Option>
+					C-) 80
+				</Option>
+				<Option>
+					D-) 85
+				</Option>
+				<Option>
+					E-) 90
+				</Option>
+				<CorrectIndex>3</CorrectIndex>
 			</Question>
 		</Question>
 	</Question>

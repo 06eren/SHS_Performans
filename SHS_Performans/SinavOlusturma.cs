@@ -15,10 +15,52 @@ namespace SHS_Performans
     {
         List<Question> sorular = new List<Question>();
         int soruIndex = 0;
+        private string sinavAdi; 
+
 
         public SinavOlusturma()
         {
             InitializeComponent();
+
+        }
+        public SinavOlusturma(string adi)
+        {
+            InitializeComponent();
+            sinavAdi = adi;
+
+
+            SorulariYukle();
+        }
+
+        private void SorulariYukle()
+        {
+            string dosyaYolu = Path.Combine("Sınavlar", sinavAdi + ".xml");
+
+            if (!File.Exists(dosyaYolu))
+            {
+                MessageBox.Show("Sınav dosyası bulunamadı.");
+                return;
+            }
+
+            XmlDocument doc = new XmlDocument();
+            doc.Load(dosyaYolu);
+
+            XmlNodeList soruNodelari = doc.SelectNodes("/Sinav/Soru");
+
+            foreach (XmlNode node in soruNodelari)
+            {
+                Soru s = new Soru();
+                s.SoruMetni = node["SoruMetni"].InnerText;
+                s.Secenekler[0] = node["Secenekler"]["A"].InnerText;
+                s.Secenekler[1] = node["Secenekler"]["B"].InnerText;
+                s.Secenekler[2] = node["Secenekler"]["C"].InnerText;
+                s.Secenekler[3] = node["Secenekler"]["D"].InnerText;
+                s.Secenekler[4] = node["Secenekler"]["E"].InnerText;
+                s.DogruCevap = node["DogruCevap"].InnerText;
+
+                
+            }
+
         }
 
         private void SinavOlusturma_Load(object sender, EventArgs e)
@@ -146,10 +188,13 @@ namespace SHS_Performans
             doc.Save(path);
 
             // Ana menüde buton göster
-            
+            ((fanamenu)this.Owner)?.AktifButonEkle(sinavAdi);
+
 
             MessageBox.Show("Sınav kaydedildi!");
             this.Close();
+
+            
             
         }
     }

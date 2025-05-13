@@ -405,6 +405,7 @@
             ayt_sosyal_button.TabIndex = 13;
             ayt_sosyal_button.Text = "Sosyal Bilimler-2";
             ayt_sosyal_button.UseVisualStyleBackColor = true;
+            ayt_sosyal_button.Click += ayt_sosyal_button_Click;
             // 
             // ayt_mat_button
             // 
@@ -417,6 +418,7 @@
             ayt_mat_button.TabIndex = 14;
             ayt_mat_button.Text = "Matematik";
             ayt_mat_button.UseVisualStyleBackColor = true;
+            ayt_mat_button.Click += ayt_mat_button_Click;
             // 
             // ayt_fen_button
             // 
@@ -429,6 +431,7 @@
             ayt_fen_button.TabIndex = 15;
             ayt_fen_button.Text = "Fen Bilimleri";
             ayt_fen_button.UseVisualStyleBackColor = true;
+            ayt_fen_button.Click += ayt_fen_button_Click;
             // 
             // ayt_label
             // 
@@ -452,6 +455,7 @@
             olus_1.Size = new Size(124, 103);
             olus_1.TabIndex = 17;
             olus_1.UseVisualStyleBackColor = true;
+            olus_1.Visible = false;
             // 
             // olus_2
             // 
@@ -463,6 +467,7 @@
             olus_2.Size = new Size(124, 103);
             olus_2.TabIndex = 18;
             olus_2.UseVisualStyleBackColor = true;
+            olus_2.Visible = false;
             // 
             // olus_3
             // 
@@ -474,6 +479,7 @@
             olus_3.Size = new Size(124, 103);
             olus_3.TabIndex = 19;
             olus_3.UseVisualStyleBackColor = true;
+            olus_3.Visible = false;
             // 
             // olus_4
             // 
@@ -485,17 +491,19 @@
             olus_4.Size = new Size(124, 103);
             olus_4.TabIndex = 20;
             olus_4.UseVisualStyleBackColor = true;
+            olus_4.Visible = false;
             // 
             // olus_5
             // 
             olus_5.BackgroundImage = (Image)resources.GetObject("olus_5.BackgroundImage");
             olus_5.FlatStyle = FlatStyle.Flat;
             olus_5.Font = new Font("Tahoma", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 162);
-            olus_5.Location = new Point(500, 239);
+            olus_5.Location = new Point(500, 240);
             olus_5.Name = "olus_5";
             olus_5.Size = new Size(124, 103);
             olus_5.TabIndex = 21;
             olus_5.UseVisualStyleBackColor = true;
+            olus_5.Visible = false;
             // 
             // olus_cikis
             // 
@@ -508,6 +516,7 @@
             olus_cikis.TabIndex = 22;
             olus_cikis.Text = "Çıkış";
             olus_cikis.UseVisualStyleBackColor = true;
+            olus_cikis.Visible = false;
             olus_cikis.Click += olus_cikis_Click;
             // 
             // olus_label
@@ -551,7 +560,7 @@
             Controls.Add(panel3);
             Controls.Add(panel1);
             Name = "fanamenu";
-            Text = "fanamenu";
+            Text = "Ana Menü";
             Load += fanamenu_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();

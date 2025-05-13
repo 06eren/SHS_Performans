@@ -127,7 +127,7 @@
             // 
             lblSoru.BackColor = Color.Transparent;
             lblSoru.Font = new Font("Arial Rounded MT Bold", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblSoru.ForeColor = Color.White;
+            lblSoru.ForeColor = Color.OldLace;
             lblSoru.Location = new Point(12, 56);
             lblSoru.Name = "lblSoru";
             lblSoru.Size = new Size(1023, 257);
@@ -163,7 +163,7 @@
             Controls.Add(lblSoru);
             Controls.Add(pictureBox1);
             Name = "f_tyt_temelmat";
-            Text = "f_tyt_temelmat";
+            Text = "Temel Yeterlilik Testi Temel Mat Sınavı";
             Load += f_tyt_temelmat_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
