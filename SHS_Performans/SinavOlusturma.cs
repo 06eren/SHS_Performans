@@ -150,6 +150,7 @@ namespace SHS_Performans
 
             MessageBox.Show("Sınav kaydedildi!");
             this.Close();
+            
         }
     }
 }
