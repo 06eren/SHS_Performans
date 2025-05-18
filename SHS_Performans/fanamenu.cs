@@ -145,9 +145,8 @@ namespace SHS_Performans
 
         private void tyt_button1_Click(object sender, EventArgs e)
         {
-            f_tyt_turkce turkce = new f_tyt_turkce();
-            turkce.Show();
-            this.Hide();
+            tyt_messagebox_turkce mesaj = new tyt_messagebox_turkce();
+            mesaj.ShowDialog(); 
         }
 
         private void tyt_button2_Click(object sender, EventArgs e)
