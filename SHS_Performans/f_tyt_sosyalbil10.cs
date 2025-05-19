@@ -11,13 +11,13 @@ using System.Xml;
 
 namespace SHS_Performans
 {
-    public partial class f_tyt_temelmat5 : Form
+    public partial class f_tyt_sosyalbil10 : Form
     {
         private List<Question> questions;
         private int soruIndexTut = 0;
         private int DCevapTut = 0;
         private int Zamanlayici = 0;
-        public f_tyt_temelmat5()
+        public f_tyt_sosyalbil10()
         {
             InitializeComponent();
             SorulariBaslat();
@@ -31,7 +31,7 @@ namespace SHS_Performans
         {
             questions = new List<Question>();
             XmlDocument doc = new XmlDocument();
-            doc.Load("tytTemelMatSorulari5.xml");
+            doc.Load("tytSosyalBilSorulari.xml");
 
             foreach (XmlNode node in doc.SelectNodes("//Question"))
             {
@@ -76,7 +76,8 @@ namespace SHS_Performans
             rbOption4.Checked = false;
             rbOption5.Checked = false;
         }
-        private void f_tyt_temelmat5_Load(object sender, EventArgs e)
+
+        private void f_tyt_sosyalbil10_Load(object sender, EventArgs e)
         {
             CenterToScreen();
             Control[] controls = { rbOption1, rbOption2, rbOption3, rbOption4, rbOption5, lblTimer, lblSoru };
@@ -143,6 +144,8 @@ namespace SHS_Performans
             fanamenu fanamenu = new fanamenu("");
             fanamenu.Show();
             this.Close();
+
+
         }
 
         public class Question

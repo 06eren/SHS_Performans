@@ -8,15 +8,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace SHS_Performans
 {
     public partial class fanamenu : Form
     {
+        List<Button> testButonlari;
         public fanamenu(string KarsilamaKullaniciAdi)
         {
             InitializeComponent();
             girisUserName.Text = KarsilamaKullaniciAdi;
+
+
+            // Butonları listeye al
+            testButonlari = new List<Button> { olus_1, olus_2, olus_3, olus_4, olus_5 };
+
+            // Hepsini gizle
+            foreach (var btn in testButonlari)
+            {
+                btn.Visible = false;
+            }
+
+            // Daha önce oluşturulmuş testleri yükle
+            TestleriYukle();
         }
 
         public fanamenu()
@@ -235,9 +250,9 @@ namespace SHS_Performans
             DialogResult = MessageBox.Show("Sınav oluşturmak için 'Evet' tuşuna basınız", "SHS System", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
             if (DialogResult == DialogResult.Yes)
             {
-                SinavOlusturma sinav = new SinavOlusturma();
-                sinav.Owner = this;
-                sinav.ShowDialog();
+                var forms = new SinavOlusturma();
+                forms.Owner = this;
+                forms.ShowDialog();
             }
             else
             {
@@ -271,20 +286,6 @@ namespace SHS_Performans
             olus_label.Visible = false;
         }
 
-        public void AktifButonEkle(string sinavAdi)
-        {
-            Button[] butonlar = { olus_1, olus_2, olus_3, olus_4, olus_5 };
-
-            foreach (var btn in butonlar)
-            {
-                if (!btn.Visible)
-                {
-                    btn.Text = sinavAdi; // Butonun adını sınav adı yap
-                    btn.Visible = true;  // Butonu görünür yap
-                    break;
-                }
-            }
-        }
 
         private void ayt_sosyal_button_Click(object sender, EventArgs e)
         {
@@ -306,6 +307,49 @@ namespace SHS_Performans
             fen.Show();
             this.Hide();
 
+        }
+
+        public void TestEkle(string testAdi)
+        {
+            // İlk boş butonu bul
+            var bosButon = testButonlari.FirstOrDefault(b => !b.Visible);
+
+            if (bosButon != null)
+            {
+                bosButon.Text = testAdi;
+                bosButon.Visible = true;
+            }
+            else
+            {
+                MessageBox.Show("Maksimum 5 test sınırı var.");
+            }
+        }
+
+        private void TestleriYukle()
+        {
+            string klasor = Path.Combine(Application.StartupPath, "testler");
+            if (!Directory.Exists(klasor)) return;
+
+            string[] dosyalar = Directory.GetFiles(klasor, "*.xml");
+
+            for (int i = 0; i < Math.Min(dosyalar.Length, testButonlari.Count); i++)
+            {
+                string testAdi = Path.GetFileNameWithoutExtension(dosyalar[i]);
+                testButonlari[i].Text = testAdi;
+                testButonlari[i].Visible = true;
+            }
+        }
+
+        private void olus_1_Click(object sender, EventArgs e) => TestCoz(olus_1.Text);
+        private void olus_2_Click(object sender, EventArgs e) => TestCoz(olus_2.Text);
+        private void olus_3_Click(object sender, EventArgs e) => TestCoz(olus_3.Text);
+        private void olus_4_Click(object sender, EventArgs e) => TestCoz(olus_4.Text);
+        private void olus_5_Click(object sender, EventArgs e) => TestCoz(olus_5.Text);
+
+        private void TestCoz(string testAdi)
+        {
+            var frm = new f_olus_sinav_coz(testAdi); // çözülecek sınav formu
+            frm.ShowDialog();
         }
     }
 }

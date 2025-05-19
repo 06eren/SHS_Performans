@@ -8,14 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml;
+using System.Xml.Serialization;
 
 namespace SHS_Performans
 {
     public partial class SinavOlusturma : Form
     {
-        List<Question> sorular = new List<Question>();
-        int soruIndex = 0;
-        private string sinavAdi; 
+        List<olus_soru> sorular = new();
 
 
         public SinavOlusturma()
@@ -26,42 +25,8 @@ namespace SHS_Performans
         public SinavOlusturma(string adi)
         {
             InitializeComponent();
-            sinavAdi = adi;
-
-
-            SorulariYukle();
         }
 
-        private void SorulariYukle()
-        {
-            string dosyaYolu = Path.Combine("Sınavlar", sinavAdi + ".xml");
-
-            if (!File.Exists(dosyaYolu))
-            {
-                MessageBox.Show("Sınav dosyası bulunamadı.");
-                return;
-            }
-
-            XmlDocument doc = new XmlDocument();
-            doc.Load(dosyaYolu);
-
-            XmlNodeList soruNodelari = doc.SelectNodes("/Sinav/Soru");
-
-            foreach (XmlNode node in soruNodelari)
-            {
-                Soru s = new Soru();
-                s.SoruMetni = node["SoruMetni"].InnerText;
-                s.Secenekler[0] = node["Secenekler"]["A"].InnerText;
-                s.Secenekler[1] = node["Secenekler"]["B"].InnerText;
-                s.Secenekler[2] = node["Secenekler"]["C"].InnerText;
-                s.Secenekler[3] = node["Secenekler"]["D"].InnerText;
-                s.Secenekler[4] = node["Secenekler"]["E"].InnerText;
-                s.DogruCevap = node["DogruCevap"].InnerText;
-
-                
-            }
-
-        }
 
         private void SinavOlusturma_Load(object sender, EventArgs e)
         {
@@ -82,54 +47,42 @@ namespace SHS_Performans
         {
             txtSoru.Text = "";
         }
-        public class Question
-        {
-            public string SoruMetni { get; set; }
-            public string CevapA { get; set; }
-            public string CevapB { get; set; }
-            public string CevapC { get; set; }
-            public string CevapD { get; set; }
-            public string CevapE { get; set; }
-            public string DogruCevap { get; set; }
-        }
+       
+
 
         private void button_SoruKaydet_Click(object sender, EventArgs e)
         {
-            string soru = txtSoru.Text.Trim();
-            string A = txtA.Text.Trim();
-            string B = txtB.Text.Trim();
-            string C = txtC.Text.Trim();
-            string D = txtD.Text.Trim();
-            string E = txtE.Text.Trim();
+            string dogruSecenek = "";
+            if (rdA.Checked) dogruSecenek = "A";
+            else if (rdB.Checked) dogruSecenek = "B";
+            else if (rdC.Checked) dogruSecenek = "C";
+            else if (rdD.Checked) dogruSecenek = "D";
+            else if (rdE.Checked) dogruSecenek = "E";
 
-            string dogru = "";
-            if (rdA.Checked) dogru = "A";
-            if (rdB.Checked) dogru = "B";
-            if (rdC.Checked) dogru = "C";
-            if (rdD.Checked) dogru = "D";
-            if (rdE.Checked) dogru = "E";
-
-            if (string.IsNullOrEmpty(soru) || string.IsNullOrEmpty(dogru))
+            if (string.IsNullOrWhiteSpace(txtSoru.Text) || string.IsNullOrWhiteSpace(dogruSecenek))
             {
-                MessageBox.Show("Soru ve doğru cevap boş olamaz.");
+                MessageBox.Show("Soru metni ve doğru seçenek seçilmelidir.");
                 return;
             }
 
-            var q = new Question
+            olus_soru soru = new olus_soru
             {
-                SoruMetni = soru,
-                CevapA = A,
-                CevapB = B,
-                CevapC = C,
-                CevapD = D,
-                CevapE = E,
-                DogruCevap = dogru
+                SoruMetni = txtSoru.Text,
+                SecenekA = txtA.Text,
+                SecenekB = txtB.Text,
+                SecenekC = txtC.Text,
+                SecenekD = txtD.Text,
+                SecenekE = txtE.Text,
+                DogruCevap = dogruSecenek
             };
 
-            sorular.Add(q);
-            lstSorular.Items.Add($"Soru {soruIndex + 1}: {soru} ({dogru})");
-            soruIndex++;
-            Temizle();
+            sorular.Add(soru);
+            lstSorular.Items.Add($"Soru {sorular.Count}");
+
+            // Alanları temizle
+            txtSoru.Clear();
+            txtA.Clear(); txtB.Clear(); txtC.Clear(); txtD.Clear(); txtE.Clear();
+            rdA.Checked = rdB.Checked = rdC.Checked = rdD.Checked = rdE.Checked = false;
         }
 
         private void Temizle()
@@ -141,61 +94,32 @@ namespace SHS_Performans
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (sorular.Count < 5)
+            if (string.IsNullOrWhiteSpace(txtSinavAdi.Text))
             {
-                MessageBox.Show("En az 5 soru girmelisiniz.");
+                MessageBox.Show("Lütfen test adı giriniz.");
                 return;
             }
 
-            string sinavAdi = txtSinavAdi.Text.Trim();
-            if (string.IsNullOrEmpty(sinavAdi))
+            string testAdi = txtSinavAdi.Text.Trim();
+            string klasor = Path.Combine(Application.StartupPath, "testler");
+            Directory.CreateDirectory(klasor);
+            string dosyaYolu = Path.Combine(klasor, testAdi + ".xml");
+
+            XmlSerializer serializer = new XmlSerializer(typeof(List<olus_soru>));
+            using (StreamWriter writer = new StreamWriter(dosyaYolu))
             {
-                MessageBox.Show("Sınav adı girin.");
-                return;
+                serializer.Serialize(writer, sorular);
             }
 
-            string path = Path.Combine("Sinavlar", $"{sinavAdi}.xml");
-            Directory.CreateDirectory("Sinavlar");
-
-            XmlDocument doc = new XmlDocument();
-            XmlElement root = doc.CreateElement("sinav");
-            doc.AppendChild(root);
-
-            XmlElement sinavAdEl = doc.CreateElement("sinavAdi");
-            sinavAdEl.InnerText = sinavAdi;
-            root.AppendChild(sinavAdEl);
-
-            foreach (var q in sorular)
+            // Ana formdaki butonları güncelle
+            if (this.Owner is fanamenu anaForm)
             {
-                XmlElement soruEl = doc.CreateElement("soru");
-                soruEl.AppendChild(Yap("metin", q.SoruMetni));
-                soruEl.AppendChild(Yap("cevapA", q.CevapA));
-                soruEl.AppendChild(Yap("cevapB", q.CevapB));
-                soruEl.AppendChild(Yap("cevapC", q.CevapC));
-                soruEl.AppendChild(Yap("cevapD", q.CevapD));
-                soruEl.AppendChild(Yap("cevapE", q.CevapE));
-                soruEl.AppendChild(Yap("dogru", q.DogruCevap));
-                root.AppendChild(soruEl);
+                anaForm.TestEkle(testAdi);
             }
 
-            XmlElement Yap(string ad, string deger)
-            {
-                XmlElement el = doc.CreateElement(ad);
-                el.InnerText = deger;
-                return el;
-            }
-
-            doc.Save(path);
-
-            // Ana menüde buton göster
-            ((fanamenu)this.Owner)?.AktifButonEkle(sinavAdi);
-
-
-            MessageBox.Show("Sınav kaydedildi!");
+            MessageBox.Show("Test başarıyla kaydedildi.");
             this.Close();
-
-            
-            
         }
     }
+    
 }

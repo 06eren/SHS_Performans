@@ -57,6 +57,7 @@
             // rbOption5
             // 
             rbOption5.Font = new Font("Arial Rounded MT Bold", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            rbOption5.ForeColor = Color.OldLace;
             rbOption5.Location = new Point(43, 723);
             rbOption5.Name = "rbOption5";
             rbOption5.Size = new Size(941, 93);
@@ -68,6 +69,7 @@
             // rbOption4
             // 
             rbOption4.Font = new Font("Arial Rounded MT Bold", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            rbOption4.ForeColor = Color.OldLace;
             rbOption4.Location = new Point(43, 624);
             rbOption4.Name = "rbOption4";
             rbOption4.Size = new Size(941, 93);
@@ -79,6 +81,7 @@
             // rbOption3
             // 
             rbOption3.Font = new Font("Arial Rounded MT Bold", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            rbOption3.ForeColor = Color.OldLace;
             rbOption3.Location = new Point(43, 525);
             rbOption3.Name = "rbOption3";
             rbOption3.Size = new Size(941, 93);
@@ -91,6 +94,7 @@
             // 
             rbOption2.BackColor = Color.Transparent;
             rbOption2.Font = new Font("Arial Rounded MT Bold", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            rbOption2.ForeColor = Color.OldLace;
             rbOption2.Location = new Point(43, 426);
             rbOption2.Name = "rbOption2";
             rbOption2.Size = new Size(941, 93);
@@ -103,6 +107,7 @@
             // 
             rbOption1.BackColor = Color.Transparent;
             rbOption1.Font = new Font("Arial Rounded MT Bold", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            rbOption1.ForeColor = Color.OldLace;
             rbOption1.Location = new Point(43, 325);
             rbOption1.Name = "rbOption1";
             rbOption1.Size = new Size(941, 95);

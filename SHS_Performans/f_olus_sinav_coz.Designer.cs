@@ -30,11 +30,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f_olus_sinav_coz));
             lblSoru = new Label();
-            rbA = new RadioButton();
-            rbB = new RadioButton();
-            rbC = new RadioButton();
-            rbD = new RadioButton();
-            rbE = new RadioButton();
+            rdA = new RadioButton();
+            rdB = new RadioButton();
+            rdC = new RadioButton();
+            rdD = new RadioButton();
+            rdE = new RadioButton();
             btnSonraki = new Button();
             SuspendLayout();
             // 
@@ -49,70 +49,70 @@
             lblSoru.TabIndex = 2;
             lblSoru.Text = "Soru";
             // 
-            // rbA
+            // rdA
             // 
-            rbA.BackColor = Color.Transparent;
-            rbA.Font = new Font("Arial Rounded MT Bold", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            rbA.ForeColor = SystemColors.Info;
-            rbA.Location = new Point(12, 269);
-            rbA.Name = "rbA";
-            rbA.Size = new Size(941, 95);
-            rbA.TabIndex = 4;
-            rbA.TabStop = true;
-            rbA.Text = "radioButton1";
-            rbA.UseVisualStyleBackColor = false;
+            rdA.BackColor = Color.Transparent;
+            rdA.Font = new Font("Arial Rounded MT Bold", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            rdA.ForeColor = SystemColors.Info;
+            rdA.Location = new Point(12, 269);
+            rdA.Name = "rdA";
+            rdA.Size = new Size(941, 95);
+            rdA.TabIndex = 4;
+            rdA.TabStop = true;
+            rdA.Text = "radioButton1";
+            rdA.UseVisualStyleBackColor = false;
             // 
-            // rbB
+            // rdB
             // 
-            rbB.BackColor = Color.Transparent;
-            rbB.Font = new Font("Arial Rounded MT Bold", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            rbB.ForeColor = SystemColors.Info;
-            rbB.Location = new Point(12, 370);
-            rbB.Name = "rbB";
-            rbB.Size = new Size(941, 95);
-            rbB.TabIndex = 5;
-            rbB.TabStop = true;
-            rbB.Text = "radioButton1";
-            rbB.UseVisualStyleBackColor = false;
+            rdB.BackColor = Color.Transparent;
+            rdB.Font = new Font("Arial Rounded MT Bold", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            rdB.ForeColor = SystemColors.Info;
+            rdB.Location = new Point(12, 370);
+            rdB.Name = "rdB";
+            rdB.Size = new Size(941, 95);
+            rdB.TabIndex = 5;
+            rdB.TabStop = true;
+            rdB.Text = "radioButton1";
+            rdB.UseVisualStyleBackColor = false;
             // 
-            // rbC
+            // rdC
             // 
-            rbC.BackColor = Color.Transparent;
-            rbC.Font = new Font("Arial Rounded MT Bold", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            rbC.ForeColor = SystemColors.Info;
-            rbC.Location = new Point(12, 471);
-            rbC.Name = "rbC";
-            rbC.Size = new Size(941, 95);
-            rbC.TabIndex = 6;
-            rbC.TabStop = true;
-            rbC.Text = "radioButton1";
-            rbC.UseVisualStyleBackColor = false;
+            rdC.BackColor = Color.Transparent;
+            rdC.Font = new Font("Arial Rounded MT Bold", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            rdC.ForeColor = SystemColors.Info;
+            rdC.Location = new Point(12, 471);
+            rdC.Name = "rdC";
+            rdC.Size = new Size(941, 95);
+            rdC.TabIndex = 6;
+            rdC.TabStop = true;
+            rdC.Text = "radioButton1";
+            rdC.UseVisualStyleBackColor = false;
             // 
-            // rbD
+            // rdD
             // 
-            rbD.BackColor = Color.Transparent;
-            rbD.Font = new Font("Arial Rounded MT Bold", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            rbD.ForeColor = SystemColors.Info;
-            rbD.Location = new Point(12, 572);
-            rbD.Name = "rbD";
-            rbD.Size = new Size(941, 95);
-            rbD.TabIndex = 7;
-            rbD.TabStop = true;
-            rbD.Text = "radioButton1";
-            rbD.UseVisualStyleBackColor = false;
+            rdD.BackColor = Color.Transparent;
+            rdD.Font = new Font("Arial Rounded MT Bold", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            rdD.ForeColor = SystemColors.Info;
+            rdD.Location = new Point(12, 572);
+            rdD.Name = "rdD";
+            rdD.Size = new Size(941, 95);
+            rdD.TabIndex = 7;
+            rdD.TabStop = true;
+            rdD.Text = "radioButton1";
+            rdD.UseVisualStyleBackColor = false;
             // 
-            // rbE
+            // rdE
             // 
-            rbE.BackColor = Color.Transparent;
-            rbE.Font = new Font("Arial Rounded MT Bold", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            rbE.ForeColor = SystemColors.Info;
-            rbE.Location = new Point(12, 673);
-            rbE.Name = "rbE";
-            rbE.Size = new Size(941, 95);
-            rbE.TabIndex = 8;
-            rbE.TabStop = true;
-            rbE.Text = "radioButton1";
-            rbE.UseVisualStyleBackColor = false;
+            rdE.BackColor = Color.Transparent;
+            rdE.Font = new Font("Arial Rounded MT Bold", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            rdE.ForeColor = SystemColors.Info;
+            rdE.Location = new Point(12, 673);
+            rdE.Name = "rdE";
+            rdE.Size = new Size(941, 95);
+            rdE.TabIndex = 8;
+            rdE.TabStop = true;
+            rdE.Text = "radioButton1";
+            rdE.UseVisualStyleBackColor = false;
             // 
             // btnSonraki
             // 
@@ -124,6 +124,7 @@
             btnSonraki.TabIndex = 9;
             btnSonraki.Text = "Sonraki Soru";
             btnSonraki.UseVisualStyleBackColor = false;
+            btnSonraki.Click += btnSonraki_Click;
             // 
             // f_olus_sinav_coz
             // 
@@ -132,11 +133,11 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1063, 890);
             Controls.Add(btnSonraki);
-            Controls.Add(rbE);
-            Controls.Add(rbD);
-            Controls.Add(rbC);
-            Controls.Add(rbB);
-            Controls.Add(rbA);
+            Controls.Add(rdE);
+            Controls.Add(rdD);
+            Controls.Add(rdC);
+            Controls.Add(rdB);
+            Controls.Add(rdA);
             Controls.Add(lblSoru);
             Name = "f_olus_sinav_coz";
             Text = "f_olus_sinav_coz";
@@ -147,11 +148,11 @@
         #endregion
 
         private Label lblSoru;
-        private RadioButton rbA;
-        private RadioButton rbB;
-        private RadioButton rbC;
-        private RadioButton rbD;
-        private RadioButton rbE;
+        private RadioButton rdA;
+        private RadioButton rdB;
+        private RadioButton rdC;
+        private RadioButton rdD;
+        private RadioButton rdE;
         private Button btnSonraki;
     }
 }
