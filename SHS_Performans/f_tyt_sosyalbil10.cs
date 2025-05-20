@@ -31,7 +31,7 @@ namespace SHS_Performans
         {
             questions = new List<Question>();
             XmlDocument doc = new XmlDocument();
-            doc.Load("tytSosyalBilSorulari.xml");
+            doc.Load("tytSosyalBilSorulari10.xml");
 
             foreach (XmlNode node in doc.SelectNodes("//Question"))
             {

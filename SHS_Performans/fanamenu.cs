@@ -206,8 +206,8 @@ namespace SHS_Performans
 
         private void tyt_button4_Click(object sender, EventArgs e)
         {
-            tyt_messagebox_fenbil fenbil = new tyt_messagebox_fenbil();
-            fenbil.ShowDialog();
+            tyt_messagebox_fenbil fencik = new tyt_messagebox_fenbil();
+            fencik.ShowDialog();
         }
 
         private void tyt_button5_Click(object sender, EventArgs e)
@@ -241,9 +241,7 @@ namespace SHS_Performans
 
         private void ayt_edebiyat_button_Click(object sender, EventArgs e)
         {
-            f_ayt_edebiyat edebi = new f_ayt_edebiyat();
-            edebi.Show();
-            this.Hide();
+
 
         }
 
@@ -371,7 +369,7 @@ namespace SHS_Performans
                 return;
             }
 
-            MessageBox.Show("Maksimum 5 sınav eklenebilir.");
+            MessageBox.Show("Maksimum 5 sınav eklenebilir","SHS Uyarı");
         }
 
         public void TestleriYukle()
@@ -391,38 +389,79 @@ namespace SHS_Performans
 
         private void olus_1_Click(object sender, EventArgs e)
         {
-             using (var frm = new f_olus_sinav_coz(olus_1.Text))
-             {
-                    frm.ShowDialog();
-             }
+            string sinavAdi = olus_1.Text;
+            string dosyaYolu = Path.Combine(Application.StartupPath, "testler", sinavAdi + ".xml");
+
+            if (!File.Exists(dosyaYolu))
+            {
+                MessageBox.Show("Bu teste ait veri bulunamadı.", "SHS Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            var frm = new f_olus_sinav_coz(sinavAdi);
+            frm.ShowDialog();
+            frm.Dispose(); 
         }
         private void olus_2_Click(object sender, EventArgs e) 
         {
-            using (var frm = new f_olus_sinav_coz(olus_2.Text))
+            string sinavAdi = olus_2.Text;
+            string dosyaYolu = Path.Combine(Application.StartupPath, "testler", sinavAdi + ".xml");
+
+            if (!File.Exists(dosyaYolu))
             {
-                frm.ShowDialog();
+                MessageBox.Show("Bu teste ait veri bulunamadı.", "SHS Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
             }
+
+            var frm = new f_olus_sinav_coz(sinavAdi);
+            frm.ShowDialog();
+            frm.Dispose();
+
         }
         private void olus_3_Click(object sender, EventArgs e)
         {
-            using (var frm = new f_olus_sinav_coz(olus_3.Text))
+            string sinavAdi = olus_3.Text;
+            string dosyaYolu = Path.Combine(Application.StartupPath, "testler", sinavAdi + ".xml");
+
+            if (!File.Exists(dosyaYolu))
             {
-                frm.ShowDialog();
+                MessageBox.Show("Bu teste ait veri bulunamadı.", "SHS Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
             }
+
+            var frm = new f_olus_sinav_coz(sinavAdi);
+            frm.ShowDialog();
+            frm.Dispose();
         }
         private void olus_4_Click(object sender, EventArgs e)
         {
-            using (var frm = new f_olus_sinav_coz(olus_4.Text))
+            string sinavAdi = olus_4.Text;
+            string dosyaYolu = Path.Combine(Application.StartupPath, "testler", sinavAdi + ".xml");
+
+            if (!File.Exists(dosyaYolu))
             {
-                frm.ShowDialog();
+                MessageBox.Show("Bu teste ait veri bulunamadı.", "SHS Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
             }
+
+            var frm = new f_olus_sinav_coz(sinavAdi);
+            frm.ShowDialog();
+            frm.Dispose();
         }
         private void olus_5_Click(object sender, EventArgs e)
         {
-            using (var frm = new f_olus_sinav_coz(olus_5.Text))
+            string sinavAdi = olus_5.Text;
+            string dosyaYolu = Path.Combine(Application.StartupPath, "testler", sinavAdi + ".xml");
+
+            if (!File.Exists(dosyaYolu))
             {
-                frm.ShowDialog();
+                MessageBox.Show("Bu teste ait veri bulunamadı.", "SHS Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
             }
+
+            var frm = new f_olus_sinav_coz(sinavAdi);
+            frm.ShowDialog();
+            frm.Dispose();
         }
 
         private void TestCoz(string testAdi)

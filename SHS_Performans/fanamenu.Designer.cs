@@ -90,7 +90,7 @@
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(276, 747);
+            panel1.Size = new Size(276, 464);
             panel1.TabIndex = 0;
             // 
             // label2
@@ -386,7 +386,7 @@
             ayt_edebiyat_button.BackgroundImage = (Image)resources.GetObject("ayt_edebiyat_button.BackgroundImage");
             ayt_edebiyat_button.FlatStyle = FlatStyle.Flat;
             ayt_edebiyat_button.Font = new Font("Tahoma", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 162);
-            ayt_edebiyat_button.Location = new Point(862, 363);
+            ayt_edebiyat_button.Location = new Point(330, 100);
             ayt_edebiyat_button.Name = "ayt_edebiyat_button";
             ayt_edebiyat_button.Size = new Size(124, 103);
             ayt_edebiyat_button.TabIndex = 12;
@@ -399,7 +399,7 @@
             ayt_sosyal_button.BackgroundImage = (Image)resources.GetObject("ayt_sosyal_button.BackgroundImage");
             ayt_sosyal_button.FlatStyle = FlatStyle.Flat;
             ayt_sosyal_button.Font = new Font("Tahoma", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 162);
-            ayt_sosyal_button.Location = new Point(992, 363);
+            ayt_sosyal_button.Location = new Point(500, 100);
             ayt_sosyal_button.Name = "ayt_sosyal_button";
             ayt_sosyal_button.Size = new Size(124, 103);
             ayt_sosyal_button.TabIndex = 13;
@@ -412,7 +412,7 @@
             ayt_mat_button.BackgroundImage = (Image)resources.GetObject("ayt_mat_button.BackgroundImage");
             ayt_mat_button.FlatStyle = FlatStyle.Flat;
             ayt_mat_button.Font = new Font("Tahoma", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 162);
-            ayt_mat_button.Location = new Point(1122, 361);
+            ayt_mat_button.Location = new Point(670, 100);
             ayt_mat_button.Name = "ayt_mat_button";
             ayt_mat_button.Size = new Size(124, 103);
             ayt_mat_button.TabIndex = 14;
@@ -425,7 +425,7 @@
             ayt_fen_button.BackgroundImage = (Image)resources.GetObject("ayt_fen_button.BackgroundImage");
             ayt_fen_button.FlatStyle = FlatStyle.Flat;
             ayt_fen_button.Font = new Font("Tahoma", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 162);
-            ayt_fen_button.Location = new Point(902, 501);
+            ayt_fen_button.Location = new Point(330, 239);
             ayt_fen_button.Name = "ayt_fen_button";
             ayt_fen_button.Size = new Size(124, 103);
             ayt_fen_button.TabIndex = 15;
@@ -450,7 +450,7 @@
             olus_1.BackgroundImage = (Image)resources.GetObject("olus_1.BackgroundImage");
             olus_1.FlatStyle = FlatStyle.Flat;
             olus_1.Font = new Font("Tahoma", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 162);
-            olus_1.Location = new Point(330, 501);
+            olus_1.Location = new Point(330, 100);
             olus_1.Name = "olus_1";
             olus_1.Size = new Size(124, 103);
             olus_1.TabIndex = 17;
@@ -463,7 +463,7 @@
             olus_2.BackgroundImage = (Image)resources.GetObject("olus_2.BackgroundImage");
             olus_2.FlatStyle = FlatStyle.Flat;
             olus_2.Font = new Font("Tahoma", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 162);
-            olus_2.Location = new Point(500, 501);
+            olus_2.Location = new Point(500, 100);
             olus_2.Name = "olus_2";
             olus_2.Size = new Size(124, 103);
             olus_2.TabIndex = 18;
@@ -476,7 +476,7 @@
             olus_3.BackgroundImage = (Image)resources.GetObject("olus_3.BackgroundImage");
             olus_3.FlatStyle = FlatStyle.Flat;
             olus_3.Font = new Font("Tahoma", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 162);
-            olus_3.Location = new Point(670, 501);
+            olus_3.Location = new Point(670, 100);
             olus_3.Name = "olus_3";
             olus_3.Size = new Size(124, 103);
             olus_3.TabIndex = 19;
@@ -489,7 +489,7 @@
             olus_4.BackgroundImage = (Image)resources.GetObject("olus_4.BackgroundImage");
             olus_4.FlatStyle = FlatStyle.Flat;
             olus_4.Font = new Font("Tahoma", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 162);
-            olus_4.Location = new Point(330, 632);
+            olus_4.Location = new Point(330, 239);
             olus_4.Name = "olus_4";
             olus_4.Size = new Size(124, 103);
             olus_4.TabIndex = 20;
@@ -502,7 +502,7 @@
             olus_5.BackgroundImage = (Image)resources.GetObject("olus_5.BackgroundImage");
             olus_5.FlatStyle = FlatStyle.Flat;
             olus_5.Font = new Font("Tahoma", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 162);
-            olus_5.Location = new Point(500, 632);
+            olus_5.Location = new Point(500, 239);
             olus_5.Name = "olus_5";
             olus_5.Size = new Size(124, 103);
             olus_5.TabIndex = 21;
@@ -540,7 +540,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1258, 747);
+            ClientSize = new Size(854, 464);
             Controls.Add(olus_label);
             Controls.Add(olus_cikis);
             Controls.Add(olus_1);
