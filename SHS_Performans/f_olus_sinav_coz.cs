@@ -33,7 +33,7 @@ namespace SHS_Performans
 
         private void TestYukle()
         {
-            string dosyaYolu = $"{testAdi}.xml"; // Örn: "Matematik1.xml"
+            string dosyaYolu = Path.Combine(Application.StartupPath, "testler", $"{testAdi}.xml");
 
             if (!File.Exists(dosyaYolu))
             {
@@ -44,17 +44,27 @@ namespace SHS_Performans
 
             XDocument xdoc = XDocument.Load(dosyaYolu);
 
-            sorular = xdoc.Descendants("Soru")
+            var sorularElement = xdoc.Root.Element("Sorular");
+            if (sorularElement == null)
+            {
+                MessageBox.Show("Sorular bölümü XML'de bulunamadı!");
+                this.Close();
+                return;
+            }
+
+            sorular = sorularElement.Elements("Soru")
                 .Select(x => new olus_soru
                 {
-                    SoruMetni = x.Element("Metin")?.Value,
-                    SecenekA = x.Element("A")?.Value,
-                    SecenekB = x.Element("B")?.Value,
-                    SecenekC = x.Element("C")?.Value,
-                    SecenekD = x.Element("D")?.Value,
-                    SecenekE = x.Element("E")?.Value,
-                    DogruCevap = x.Element("Dogru")?.Value
+                    SoruMetni = x.Element("SoruMetni")?.Value ?? "",
+                    SecenekA = x.Element("SecenekA")?.Value ?? "",
+                    SecenekB = x.Element("SecenekB")?.Value ?? "",
+                    SecenekC = x.Element("SecenekC")?.Value ?? "",
+                    SecenekD = x.Element("SecenekD")?.Value ?? "",
+                    SecenekE = x.Element("SecenekE")?.Value ?? "",
+                    DogruCevap = x.Element("DogruCevap")?.Value ?? ""
                 }).ToList();
+
+
         }
 
         private void SoruGoster()
@@ -65,22 +75,20 @@ namespace SHS_Performans
                 return;
             }
 
-            var soru = sorular[soruIndex];
-            lblSoru.Text = soru.SoruMetni;
+            var olus_Soru = sorular[soruIndex];
 
+            lblSoru.Text = olus_Soru.SoruMetni;
+            rdA.Text = "A-) " + olus_Soru.SecenekA;
+            rdB.Text = "B-) " + olus_Soru.SecenekB;
+            rdC.Text = "C-) " + olus_Soru.SecenekC;
+            rdD.Text = "D-) " + olus_Soru.SecenekD;
+            rdE.Text = "E-) " + olus_Soru.SecenekE;
 
-            rdA.Text = soru.SecenekA;
-            rdB.Text = soru.SecenekB;
-            rdC.Text = soru.SecenekC;
-            rdD.Text = soru.SecenekD;
-            rdE.Text = soru.SecenekE;
-
-            // Önceki seçimi temizle
             rdA.Checked = rdB.Checked = rdC.Checked = rdD.Checked = rdE.Checked = false;
         }
         private void f_olus_sinav_coz_Load(object sender, EventArgs e)
         {
-
+            CenterToScreen();
         }
 
         private void btnSonraki_Click(object sender, EventArgs e)

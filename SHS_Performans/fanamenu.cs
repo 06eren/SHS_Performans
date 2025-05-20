@@ -21,21 +21,17 @@ namespace SHS_Performans
             girisUserName.Text = KarsilamaKullaniciAdi;
 
 
-            // Butonları listeye al
+            
             testButonlari = new List<Button> { olus_1, olus_2, olus_3, olus_4, olus_5 };
 
-            // Hepsini gizle
+            
             foreach (var btn in testButonlari)
             {
                 btn.Visible = false;
             }
 
-            // Daha önce oluşturulmuş testleri yükle
+            
             TestleriYukle();
-        }
-
-        public fanamenu()
-        {
         }
 
         private void fanamenu_Load(object sender, EventArgs e)
@@ -60,12 +56,7 @@ namespace SHS_Performans
             olus_5.Visible = false;
             olus_cikis.Visible = false;
             olus_label.Visible = false;
-            //SHS
-            olus_1.Click += btnSinav_Click;
-            olus_2.Click += btnSinav_Click;
-            olus_3.Click += btnSinav_Click;
-            olus_4.Click += btnSinav_Click;
-            olus_5.Click += btnSinav_Click;
+            
 
 
 
@@ -161,30 +152,27 @@ namespace SHS_Performans
         private void tyt_button1_Click(object sender, EventArgs e)
         {
             tyt_messagebox_turkce mesaj = new tyt_messagebox_turkce();
-            mesaj.ShowDialog(); 
+            mesaj.ShowDialog();
         }
 
         private void tyt_button2_Click(object sender, EventArgs e)
         {
-            f_tyt_temelmat mat = new f_tyt_temelmat();
-            mat.Show();
-            this.Hide();
+            tyt_messagebox_temelmat temelmat = new tyt_messagebox_temelmat();
+            temelmat.ShowDialog();
 
         }
 
         private void tyt_button3_Click(object sender, EventArgs e)
         {
-            f_tyt_sosyalbil bil = new f_tyt_sosyalbil();
-            bil.Show();
-            this.Hide();
+            tyt_messagebox_sosyalbil sos = new tyt_messagebox_sosyalbil();
+            sos.ShowDialog();
 
         }
 
         private void tyt_button4_Click(object sender, EventArgs e)
         {
-            f_tyt_fenbil fen = new f_tyt_fenbil();
-            fen.Show();
-            this.Hide();
+            tyt_messagebox_fenbil fenbil = new tyt_messagebox_fenbil();
+            fenbil.ShowDialog();
         }
 
         private void tyt_button5_Click(object sender, EventArgs e)
@@ -250,7 +238,7 @@ namespace SHS_Performans
             DialogResult = MessageBox.Show("Sınav oluşturmak için 'Evet' tuşuna basınız", "SHS System", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
             if (DialogResult == DialogResult.Yes)
             {
-                var forms = new SinavOlusturma();
+                var forms = new SinavOlusturma("");
                 forms.Owner = this;
                 forms.ShowDialog();
             }
@@ -311,36 +299,41 @@ namespace SHS_Performans
 
         public void TestEkle(string testAdi)
         {
-            // İlk boş butonu bul
-            var bosButon = testButonlari.FirstOrDefault(b => !b.Visible);
+           
+            Button[] testButonlari = { olus_1, olus_2, olus_3, olus_4, olus_5 };
 
-            if (bosButon != null)
+            
+            for (int i = 0; i < testButonlari.Length; i++)
             {
-                bosButon.Text = testAdi;
-                bosButon.Visible = true;
-            }
-            else
-            {
-                MessageBox.Show("Maksimum 5 test sınırı var.");
+                if (!testButonlari[i].Visible)
+                {
+                    testButonlari[i].Text = testAdi;  
+                    testButonlari[i].Visible = true;  
+                    break;
+                }
             }
         }
 
-        private void TestleriYukle()
+        public void TestleriYukle()
         {
             string klasor = Path.Combine(Application.StartupPath, "testler");
             if (!Directory.Exists(klasor)) return;
 
-            string[] dosyalar = Directory.GetFiles(klasor, "*.xml");
-
+            var dosyalar = Directory.GetFiles(klasor, "*.xml");
             for (int i = 0; i < Math.Min(dosyalar.Length, testButonlari.Count); i++)
             {
-                string testAdi = Path.GetFileNameWithoutExtension(dosyalar[i]);
-                testButonlari[i].Text = testAdi;
+                testButonlari[i].Text = Path.GetFileNameWithoutExtension(dosyalar[i]);
                 testButonlari[i].Visible = true;
             }
         }
 
-        private void olus_1_Click(object sender, EventArgs e) => TestCoz(olus_1.Text);
+        private void olus_1_Click(object sender, EventArgs e)
+        {
+             using (var frm = new f_olus_sinav_coz(olus_1.Text))
+             {
+                    frm.ShowDialog();
+             }
+        }
         private void olus_2_Click(object sender, EventArgs e) => TestCoz(olus_2.Text);
         private void olus_3_Click(object sender, EventArgs e) => TestCoz(olus_3.Text);
         private void olus_4_Click(object sender, EventArgs e) => TestCoz(olus_4.Text);
@@ -348,8 +341,23 @@ namespace SHS_Performans
 
         private void TestCoz(string testAdi)
         {
-            var frm = new f_olus_sinav_coz(testAdi); // çözülecek sınav formu
+            f_olus_sinav_coz frm = new f_olus_sinav_coz(testAdi);
             frm.ShowDialog();
+        }
+
+        private void olus_1_Click_1(object sender, EventArgs e)
+        {
+            if (sender is Button tiklananButon && tiklananButon.Visible)
+            {
+                string sinavAdi = tiklananButon.Text;
+                SinavOlusturma cozForm = new SinavOlusturma(sinavAdi);
+                cozForm.ShowDialog();
+            }
+        }
+
+        private void olus_2_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

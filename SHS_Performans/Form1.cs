@@ -46,15 +46,15 @@ namespace SHS_Performans
         {
             string kullaniciAdi = txtKullaniciAdi.Text.Trim();
             string sifre = txtSifre.Text;
-            string KarsilamaKullaniciAdi = txtKullaniciAdi.Text; 
+            string KarsilamaKullaniciAdi = txtKullaniciAdi.Text;
 
             if (kullanicilar.ContainsKey(kullaniciAdi) && kullanicilar[kullaniciAdi] == sifre)
             {
                 MessageBox.Show("Login successful", "SHS Succesful", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                fanamenu menu = new fanamenu(KarsilamaKullaniciAdi); 
+                fanamenu menu = new fanamenu(KarsilamaKullaniciAdi);
                 menu.Show(this);
                 this.Hide();
-                
+
             }
             else
             {
@@ -101,6 +101,11 @@ namespace SHS_Performans
 
             txtSifre.UseSystemPasswordChar = !sifre2Gosteriliyor;
             button4.Text = sifreGosteriliyor ? "🙈" : "👁️";
+        }
+
+        private void txtRegUserName_TextChanged(object sender, EventArgs e)
+        {
+            txtKullaniciAdi.Text = txtRegUserName.Text;
         }
     }
 }

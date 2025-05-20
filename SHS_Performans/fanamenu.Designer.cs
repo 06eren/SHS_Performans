@@ -456,6 +456,7 @@
             olus_1.TabIndex = 17;
             olus_1.UseVisualStyleBackColor = true;
             olus_1.Visible = false;
+            olus_1.Click += olus_1_Click;
             // 
             // olus_2
             // 
@@ -468,6 +469,7 @@
             olus_2.TabIndex = 18;
             olus_2.UseVisualStyleBackColor = true;
             olus_2.Visible = false;
+            olus_2.Click += olus_2_Click_1;
             // 
             // olus_3
             // 

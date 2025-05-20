@@ -155,6 +155,7 @@
             txtRegUserName.Name = "txtRegUserName";
             txtRegUserName.Size = new Size(156, 27);
             txtRegUserName.TabIndex = 5;
+            txtRegUserName.TextChanged += txtRegUserName_TextChanged;
             // 
             // groupBox2
             // 

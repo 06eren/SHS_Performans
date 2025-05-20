@@ -140,7 +140,7 @@
             Controls.Add(rdA);
             Controls.Add(lblSoru);
             Name = "f_olus_sinav_coz";
-            Text = "f_olus_sinav_coz";
+            Text = "Kullanıcı Sınavı";
             Load += f_olus_sinav_coz_Load;
             ResumeLayout(false);
         }
