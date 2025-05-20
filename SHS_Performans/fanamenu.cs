@@ -15,23 +15,17 @@ namespace SHS_Performans
     public partial class fanamenu : Form
     {
         List<Button> testButonlari;
+
         public fanamenu(string KarsilamaKullaniciAdi)
         {
             InitializeComponent();
             girisUserName.Text = KarsilamaKullaniciAdi;
-
-
-            
             testButonlari = new List<Button> { olus_1, olus_2, olus_3, olus_4, olus_5 };
-
-            
             foreach (var btn in testButonlari)
             {
                 btn.Visible = false;
             }
-
             
-            TestleriYukle();
         }
 
         private void fanamenu_Load(object sender, EventArgs e)
@@ -49,11 +43,6 @@ namespace SHS_Performans
             ayt_mat_button.Visible = false;
             ayt_sosyal_button.Visible = false;
             tyt_button6.Visible = false;
-            olus_1.Visible = false;
-            olus_2.Visible = false;
-            olus_3.Visible = false;
-            olus_4.Visible = false;
-            olus_5.Visible = false;
             olus_cikis.Visible = false;
             olus_label.Visible = false;
             
@@ -71,6 +60,52 @@ namespace SHS_Performans
             LinkLabekBattalgazi.LinkColor = Color.Black; LinkLabekBattalgazi.Links.Add(0, LinkLabekBattalgazi.Text.Length, "https://battalgazieml.meb.k12.tr/");
             LinkLabelGit.LinkColor = Color.Black; LinkLabelGit.Links.Add(0, LinkLabelGit.Text.Length, "https://github.com/06eren");
             LinkLabelInsta.LinkColor = Color.Black; LinkLabelInsta.Links.Add(0, LinkLabelInsta.Text.Length, "https://www.instagram.com/0adwen?igsh=MTh5bmVkbzBnNmltYg%3D%3D");
+
+
+            olus_1.Visible = false;
+            olus_2.Visible = false;
+            olus_3.Visible = false;
+            olus_4.Visible = false;
+            olus_5.Visible = false;
+
+            string klasor = Path.Combine(Application.StartupPath, "testler");
+            if (!Directory.Exists(klasor)) return;
+
+            var dosyalar = Directory.GetFiles(klasor, "*.xml");
+
+            int sayac = 0;
+            foreach (string dosya in dosyalar)
+            {
+                string ad = Path.GetFileNameWithoutExtension(dosya);
+
+                switch (sayac)
+                {
+                    case 0:
+                        olus_1.Text = ad;
+                        olus_1.Visible = true;
+                        break;
+                    case 1:
+                        olus_2.Text = ad;
+                        olus_2.Visible = true;
+                        break;
+                    case 2:
+                        olus_3.Text = ad;
+                        olus_3.Visible = true;
+                        break;
+                    case 3:
+                        olus_4.Text = ad;
+                        olus_4.Visible = true;
+                        break;
+                    case 4:
+                        olus_5.Text = ad;
+                        olus_5.Visible = true;
+                        break;
+                }
+
+                sayac++;
+                if (sayac >= 5) break; 
+            }
+
         }
 
         private void btnSinav_Click(object sender, EventArgs e)
@@ -241,9 +276,11 @@ namespace SHS_Performans
                 var forms = new SinavOlusturma("");
                 forms.Owner = this;
                 forms.ShowDialog();
+                TestleriYukle();
             }
             else
             {
+                TestleriYukle();
                 MessageBox.Show("İşlem İptal Edildi", "SHS System", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
@@ -299,23 +336,48 @@ namespace SHS_Performans
 
         public void TestEkle(string testAdi)
         {
-           
-            Button[] testButonlari = { olus_1, olus_2, olus_3, olus_4, olus_5 };
-
-            
-            for (int i = 0; i < testButonlari.Length; i++)
+            if (!olus_1.Visible)
             {
-                if (!testButonlari[i].Visible)
-                {
-                    testButonlari[i].Text = testAdi;  
-                    testButonlari[i].Visible = true;  
-                    break;
-                }
+                olus_1.Text = testAdi;
+                olus_1.Visible = true;
+                return;
             }
+
+            if (!olus_2.Visible)
+            {
+                olus_2.Text = testAdi;
+                olus_2.Visible = true;
+                return;
+            }
+
+            if (!olus_3.Visible)
+            {
+                olus_3.Text = testAdi;
+                olus_3.Visible = true;
+                return;
+            }
+
+            if (!olus_4.Visible)
+            {
+                olus_4.Text = testAdi;
+                olus_4.Visible = true;
+                return;
+            }
+
+            if (!olus_5.Visible)
+            {
+                olus_5.Text = testAdi;
+                olus_5.Visible = true;
+                return;
+            }
+
+            MessageBox.Show("Maksimum 5 sınav eklenebilir.");
         }
 
         public void TestleriYukle()
         {
+
+
             string klasor = Path.Combine(Application.StartupPath, "testler");
             if (!Directory.Exists(klasor)) return;
 
@@ -334,10 +396,34 @@ namespace SHS_Performans
                     frm.ShowDialog();
              }
         }
-        private void olus_2_Click(object sender, EventArgs e) => TestCoz(olus_2.Text);
-        private void olus_3_Click(object sender, EventArgs e) => TestCoz(olus_3.Text);
-        private void olus_4_Click(object sender, EventArgs e) => TestCoz(olus_4.Text);
-        private void olus_5_Click(object sender, EventArgs e) => TestCoz(olus_5.Text);
+        private void olus_2_Click(object sender, EventArgs e) 
+        {
+            using (var frm = new f_olus_sinav_coz(olus_2.Text))
+            {
+                frm.ShowDialog();
+            }
+        }
+        private void olus_3_Click(object sender, EventArgs e)
+        {
+            using (var frm = new f_olus_sinav_coz(olus_3.Text))
+            {
+                frm.ShowDialog();
+            }
+        }
+        private void olus_4_Click(object sender, EventArgs e)
+        {
+            using (var frm = new f_olus_sinav_coz(olus_4.Text))
+            {
+                frm.ShowDialog();
+            }
+        }
+        private void olus_5_Click(object sender, EventArgs e)
+        {
+            using (var frm = new f_olus_sinav_coz(olus_5.Text))
+            {
+                frm.ShowDialog();
+            }
+        }
 
         private void TestCoz(string testAdi)
         {

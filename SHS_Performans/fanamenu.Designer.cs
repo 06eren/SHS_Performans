@@ -469,19 +469,20 @@
             olus_2.TabIndex = 18;
             olus_2.UseVisualStyleBackColor = true;
             olus_2.Visible = false;
-            olus_2.Click += olus_2_Click_1;
+            olus_2.Click += olus_2_Click;
             // 
             // olus_3
             // 
             olus_3.BackgroundImage = (Image)resources.GetObject("olus_3.BackgroundImage");
             olus_3.FlatStyle = FlatStyle.Flat;
             olus_3.Font = new Font("Tahoma", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 162);
-            olus_3.Location = new Point(670, 632);
+            olus_3.Location = new Point(670, 501);
             olus_3.Name = "olus_3";
             olus_3.Size = new Size(124, 103);
             olus_3.TabIndex = 19;
             olus_3.UseVisualStyleBackColor = true;
             olus_3.Visible = false;
+            olus_3.Click += olus_3_Click;
             // 
             // olus_4
             // 
@@ -494,6 +495,7 @@
             olus_4.TabIndex = 20;
             olus_4.UseVisualStyleBackColor = true;
             olus_4.Visible = false;
+            olus_4.Click += olus_4_Click;
             // 
             // olus_5
             // 
@@ -506,6 +508,7 @@
             olus_5.TabIndex = 21;
             olus_5.UseVisualStyleBackColor = true;
             olus_5.Visible = false;
+            olus_5.Click += olus_5_Click;
             // 
             // olus_cikis
             // 

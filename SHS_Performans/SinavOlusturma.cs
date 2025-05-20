@@ -115,12 +115,6 @@ namespace SHS_Performans
                 return;
             }
 
-            if (sorular.Count > 20)
-            {
-                MessageBox.Show("En fazla 20 soru girilebilir.");
-                return;
-            }
-
             string klasor = Path.Combine(Application.StartupPath, "testler");
             if (!Directory.Exists(klasor))
                 Directory.CreateDirectory(klasor);
@@ -146,9 +140,10 @@ namespace SHS_Performans
 
             sinavXml.Save(dosyaYolu);
 
-            
+
             if (Owner is fanamenu anaForm)
                 anaForm.TestEkle(txtSinavAdi.Text);
+
 
             MessageBox.Show("Sınav başarıyla kaydedildi!", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             Close(); ;
